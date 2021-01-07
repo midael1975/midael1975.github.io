@@ -4,10 +4,17 @@ body {
 }
 
 header, section, nav, footer {
-    margin: 1.25rem;
-    max-width: 750px;
+    margin: 1rem auto;
+    max-width: 950px;
 }
 
-header {
-    background: navy;
+header, footer {
+    background: rgb(95, 53, 71);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+img {
+    float: right;
 }

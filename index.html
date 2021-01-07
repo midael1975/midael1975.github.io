@@ -36,9 +36,14 @@
    
   </nav>
   <footer>
-    © 2021 | Wilker Pacheco | Venezuela | <a href="https://www.byui.edu/online" target="_blank">BYU Idaho online</a>
+    © 2021 | Wilker Pacheco | Venezuela | Today's Date: <span id="currentdate"></span>|
+    <a href="https://www.byui.edu/online" target="_blank">BYU Idaho online</a>
   
   </footer>
+  <script>
+   const options = {weeks: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-us', options); 
+  </script>
 
  
 </body>

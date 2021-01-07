@@ -11,10 +11,21 @@ header, section, nav, footer {
 header, footer {
     background: rgb(95, 53, 71);
     color: white;
-    padding: 1rem;
     text-align: center;
+}
+nav a {
+    color: #DC0073;
+    font-size: 1.2em;
+  }
+  nav a:hover{
+	color: red;
+	background-color: #89FC00;
 }
 
 img {
     float: right;
+}
+#enlace {
+    color: white;
+
 }

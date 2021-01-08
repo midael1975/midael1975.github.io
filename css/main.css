@@ -8,6 +8,10 @@ header, section, nav, footer {
     max-width: 950px;
 }
 
+footer {
+    padding: 10px;
+}
+
 header, footer {
     background: rgb(95, 53, 71);
     color: white;

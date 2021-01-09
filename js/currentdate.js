@@ -1,5 +1,6 @@
-   const lastupdate = new Date ();
-   console.log(lastupdate);
-    
+  
+    const x = new Date();
+    d.setFullYear(2021);
+    document.getElementById(lastModified).innerHTML= x;
 
 

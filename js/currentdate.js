@@ -1,5 +1,9 @@
 const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
 document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-us', options);
 
-const lastModified = new Date ();
-console.log(lastModified);
+newFunction();
+function newFunction() {
+    const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: 'numeric', second:'numeric' };
+    document.getElementById('lastModified').textContent = new Date().toLocaleDateString('en-us', options);
+}
+

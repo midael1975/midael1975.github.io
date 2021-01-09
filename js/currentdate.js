@@ -3,3 +3,4 @@ document.getElementById('currentdate').textContent = new Date().toLocaleDateS
 
 var d = new Date();
 document.getElementById("fullyear").innerHTML = d.getFullYear();
+

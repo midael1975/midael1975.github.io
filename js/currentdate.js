@@ -5,4 +5,4 @@ var d = new Date();
 document.getElementById("fullyear").innerHTML = d.getFullYear();
 
 var time = document.lastModifiedDate
-document.getElementById("mode").innerHTML = time;
+document.write("mode + document.lastModified");

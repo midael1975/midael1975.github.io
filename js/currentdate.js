@@ -4,6 +4,7 @@ document.getElementById('currentdate').textContent = new Date().toLocaleDateS
 var d = new Date();
 document.getElementById("fullyear").innerHTML = d.getFullYear();
 
-function test () {
-    document.write("mode" + document.lastModified);
+function lastModified () {
+    document.write(document.lastModified);
 }
+ lastModified ();

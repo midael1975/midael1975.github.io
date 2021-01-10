@@ -5,5 +5,5 @@ var d = new Date();
 document.getElementById("fullyear").innerHTML = d.getFullYear();
 
 function test () {
-    document.write(document.lastModified);
+    document.write("mode" + document.lastModified);
 }

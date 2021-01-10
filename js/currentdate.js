@@ -4,9 +4,8 @@ document.getElementById('currentdate').textContent = new Date().toLocaleDateS
 var d = new Date();
 document.getElementById("fullyear").innerHTML = d.getFullYear();
 
-update();
-
 function update() {
-    const update = document.lastModified;
-    document.getElementById(update).innerHTML = update;
+    const x = document.lastModified;
+    document.getElementById('update').innerHTML = x;
 }
+

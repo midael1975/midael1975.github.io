@@ -8,5 +8,5 @@ update();
 
 function update() {
     const update = document.lastModified;
-    var string = update;
+    document.getElementById(update).innerHTML = update;
 }

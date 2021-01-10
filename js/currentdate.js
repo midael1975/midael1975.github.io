@@ -5,6 +5,6 @@ var d = new Date();
 document.getElementById("fullyear").innerHTML = d.getFullYear();
 
 function lastModified () {
-    document.write("mo" + document.lastModified);
+    document.write("Last Modified:" + document.lastModified);
 }
  lastModified ();

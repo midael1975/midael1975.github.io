@@ -1,5 +1,10 @@
-@media only screen and (min-width: 33em){
-    main{
-        display: inline;
+@media only screen and (min-width: 33em) {
+    main {
+        float: left;
+    }
+    main img {
+        float: left;
     }
 }
+       
+    

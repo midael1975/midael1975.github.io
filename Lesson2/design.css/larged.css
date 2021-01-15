@@ -1,5 +1,5 @@
 @media only screen and (min-width: 64em) {
-    main, header, img, footer, p {
-        display: inline;
-    }
-}
+    main img {
+        display: flex;
+    } 
+ }

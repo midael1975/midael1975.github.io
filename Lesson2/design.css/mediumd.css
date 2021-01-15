@@ -1,0 +1,5 @@
+@media only screen and (min-width: 33em) {
+ main, header, img, footer {
+     display: inline;
+ }
+}

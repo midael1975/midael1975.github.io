@@ -3,10 +3,14 @@ body {
     padding: 5px 25px;
     font-size: 18px;
     margin: 0;
-    max-height: 960px;
+    max-height: 460px;
   }
 
-header {
+img {
+    width: auto;
+}
+
+header, footer {
     text-align: center;
     background-color: aliceblue;
   }
@@ -16,10 +20,15 @@ header {
     
   }
 
+  h2 a:hover {
+    color: red;
+	background-color: #89FC00 
+  }
+
   p {
     font-family: 'Roboto Mono', monospace;
-    text-align: center;
-
+    text-align: justify;
+ 
   }
 
  a {
@@ -61,5 +70,9 @@ header {
     grid-column: 2/3;
     grid-row: 2/3; ;
  } 
+
+
+ 
+
  
      

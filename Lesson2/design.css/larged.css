@@ -1,5 +1,7 @@
-@media only screen and (min-width: 64em) {
-    main img {
-        display: flex;
+@media (min-width: 64em) { 
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     } 
- }
+  
+}

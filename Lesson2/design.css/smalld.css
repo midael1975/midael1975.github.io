@@ -1,19 +1,24 @@
 body {
     background-color: white;
-    padding: 5px 25px;
+    padding: 25px 25px 25px 25px;
     font-size: 18px;
     margin: 0;
-    max-height: 460px;
+    max-width: 1150px;
+    max-height: 400px;
   }
-
+main {
+   width: auto;
+}
 
 header {
     text-align: center;
     background-color: aliceblue;
+    
   }
 
   h1, h2 {
     font-family: 'Open Sans', sans-serif;
+
     
   }
 
@@ -30,16 +35,16 @@ header {
 
  #columnas {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 700px 400px;
-    grid-gap: 60px;
+    grid-template-columns: 366px 366px 366px;
+    grid-template-rows: 300px auto;
+    grid-gap: 30px;
 
  }
 
  #contrast {
     grid-column: 1/2;
     grid-row: 1/2;
-    
+    margin-left: 20px;
  }
 
  #proximity {
@@ -51,29 +56,39 @@ header {
  #aligment {
     grid-column: 3/4;
     grid-row: 1/2;
-    
+    margin-right: -300px;
  }
 
  .one {
     grid-column: 1/2;
-    grid-row: 2/3; ;
- }
+    grid-row: 2/3; 
+    margin-top: -10px;
+ } 
+    
+ 
 
  .two {
     grid-column: 2/3;
-    grid-row: 2/3; 
+    grid-row: 2/3;
+    margin-top: -10px;
  } 
+    
+ 
 
  .three {
     grid-column: 3/4;
     grid-row: 2/3;
- }
+    margin-top: -10px;
+ } 
+    
+ 
+ 
  
  footer {
-     padding-top: -35px;
+     margin-top: -90px;
      font-size: 20px;
      text-align: center;
- }
+     background-color:  aliceblue;
 
  
 

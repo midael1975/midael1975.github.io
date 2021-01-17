@@ -44,7 +44,7 @@ header {
  #contrast {
     grid-column: 1/2;
     grid-row: 1/2;
-    margin-left: 20px;
+   
  }
 
  #proximity {
@@ -63,7 +63,7 @@ header {
     grid-column: 1/2;
     grid-row: 2/3; 
     margin-top: -10px;
-    margin-left: 20px;
+    
  } 
     
  
@@ -89,5 +89,5 @@ header {
      margin-top: 20px;
      font-size: 20px;
      text-align: center;
-     background-color:  aliceblue;
+    
  }

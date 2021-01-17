@@ -29,11 +29,14 @@
     #aligment {
         grid-row: 5/6;
         margin-top: -3700px;
+        margin-left: -1px;
+      
     }
 
     .three {
         grid-row: 6/7;
         margin-top: -3900px;
+        margin-left: -1px;
     } 
     
 }

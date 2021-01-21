@@ -4,12 +4,10 @@ body {
    margin: 0;
   max-height: 80%;
 
-
  }
 main {
   display: block;
   
-
 }
 header, main, footer {
   margin: 1rem auto;
@@ -20,7 +18,7 @@ header, main, footer {
 }
 article {
   max-width: 22em;
-   min-width: 300px;
+  min-width: 300px;
   margin: 1em;
   min-height: 980px;
   
@@ -46,8 +44,8 @@ img {
  p {
    font-family: 'Roboto Mono', monospace;
    text-align: left;
-  padding: 10px;
-  margin-top: -400px;
+   padding: 10px;
+   margin-top: -400px;
   
 
   
@@ -61,7 +59,7 @@ a {
 footer {
     font-size: 20px;
     text-align: center;
-   margin-top: 50px;
+    margin-top: 50px;
   
   
   

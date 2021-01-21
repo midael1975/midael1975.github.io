@@ -1,20 +1,41 @@
 body {
    background-color: white;
-   padding: 25px 25px 25px 25px;
    font-size: 18px;
    margin: 0;
-   max-width: 1150px;
-   max-height: 400px;
+  max-height; 80%;
+
+
  }
 main {
-  display: block
-}
+  display: block;
+  
 
+}
+header, main, footer {
+  margin: 1rem auto;
+   max-width: 1100px;
+}
+#demo {
+  margin-left: -5px;
+}
+article {
+  max-width: 22em;
+   min-width: 300px;
+  margin: 1em;
+  min-height: 980px
+  
+}
 header {
    text-align: center;
    background-color: aliceblue;
    
  }
+
+ 
+img {
+  width: 100%;
+
+}
 
  h1, h2 {
    font-family: 'Open Sans', sans-serif;
@@ -25,7 +46,11 @@ header {
  p {
    font-family: 'Roboto Mono', monospace;
    text-align: left;
+  padding: 10px;
+  margin-top: -400px;
+  
 
+  
  }
 
 a {
@@ -34,23 +59,11 @@ a {
 }
 
 footer {
-    margin-top: 20px;
     font-size: 20px;
     text-align: center;
+   margin-top: 50px;
+  
+  
+  
    
 }
-
-@media (min-width: 32.5em) {
-   main {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-   }
-}
-
-@media (min-width: 64em) {
-   main {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-   }
-}
-

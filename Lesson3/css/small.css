@@ -28,7 +28,7 @@ h1, h2 {
     font-family: 'Roboto Mono', monospace;
     text-align: left;
     padding: 20px;
-    margin-top: -30px;
+    margin-top: -40px;
   }
  
  a {
@@ -76,8 +76,23 @@ header, main, footer, nav {
      max-width: 960px;
   }
 
-.name, .purpose, .domain, .logo {
+.name, .purpose, .domain, .logo, .audience {
     text-align: left;
     color: fuchsia;
     padding: 20px;
+}
+
+.target {
+    text-align: center;
+    color: fuchsia;
+    padding-top: 20px;
+}
+
+.images {
+    width: 50%;
+    margin-top: -20px;
+}
+
+.one {
+    padding-top: 40px;
 }

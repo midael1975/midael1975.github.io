@@ -1,0 +1,81 @@
+body {
+    background-color: #90EE90;
+    font-size: 18px;
+    margin: 0;
+    max-height: 80%;
+}
+
+header {
+    text-align: center;
+    background-color:blue;
+
+}
+
+main {
+    max-width: 960px;
+    margin: auto 15%;
+    background-color: white;
+    line-height: 1em;
+    display: block;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;  
+  }
+
+ 
+  p {
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    padding: 20px;
+    margin-top: -30px;
+  }
+ 
+ a {
+     font-size: 20px;
+     color: #DC0073;  
+ }
+ 
+ footer {
+     font-size: 20px;
+     text-align: center;
+     margin-top: 50px;  
+    
+ }
+
+ img {
+    width: 80%;
+    box-align: center;
+    padding-left: 110px;
+ }
+
+#logo {
+    width: 25%;
+    padding-left: 350px;
+}
+
+ nav a {
+    color: #004777;
+    font-size: 1.2em;
+  }
+
+ nav ul {
+    list-style: none; /*removes the bullets! */
+    text-align: center;
+ }
+
+ nav a:hover{
+	color: red;
+	background-color: #FFDB30;
+}
+
+header, main, footer, nav {
+    margin: 1rem auto;
+     max-width: 1100px;
+  }
+
+.name, .purpose, .domain, .logo {
+    text-align: left;
+    color: fuchsia;
+    padding: 20px;
+}

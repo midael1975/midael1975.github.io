@@ -44,7 +44,7 @@ h1, h2 {
  }
 
  img {
-    width: 500px;
+    width: 80%;
     padding: 20px 20px 20px 20px;
     
     
@@ -101,11 +101,17 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     width: 50%;
-    padding-left: 20px;
     padding-bottom: 10px;
 }
-table {
-    padding-left: 20px;
-    padding-bottom: 10px;
 
+td {
+    text-align: center;
+}
+table {
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
+.palette {
+    margin-top: -20px;
 }

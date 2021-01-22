@@ -101,7 +101,7 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     width: 50%;
-    padding-bottom: 10px;
+    padding-bottom: 9px;
 }
 
 td {

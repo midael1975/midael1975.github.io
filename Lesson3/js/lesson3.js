@@ -4,7 +4,7 @@ document.getElementById('design').textContent = new Date().toLocaleDateString
 var d = new Date();
 document.getElementById("fullyear").innerHTML = d.getFullYear();
 
-function lastModified () {
+function lastModified() {
     document.write("Last Modified:" + document.lastModified);
 }
- lastModified ();
+lastModified();

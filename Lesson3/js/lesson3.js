@@ -7,4 +7,4 @@ document.getElementById("fullyear").innerHTML = d.getFullYear();
 function lastModified() {
     document.write("Last Modified:" + document.lastModified);
 }
-lastModified();
+lastModified(); 

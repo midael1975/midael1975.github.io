@@ -1,3 +1,4 @@
 {
-    "php.executablePath": "PHP 7 + executable"
+    "php.executablePath": "PHP 7 + executable",
+    "npm.exclude": ""
 }

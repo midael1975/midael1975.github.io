@@ -1,0 +1,26 @@
+body {
+    background-color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    max-height: 80%;
+    max-width: 100%;
+}
+
+header {
+    background-color: #008BF8;
+	padding: 5px 0;
+	align-items:center;
+    justify-content:center;
+    display: flex;
+}
+
+#encabezado {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    float: left;
+    height: auto;
+    
+}

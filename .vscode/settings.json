@@ -5,9 +5,12 @@
         "contenedor",
         "currentdate",
         "encabezado",
+        "focusring",
         "heig",
         "heigth",
         "mistdrizzle",
-        "mostrar"
+        "mostrar",
+        "necolas",
+        "titulo"
     ]
 }

@@ -42,6 +42,10 @@ nav {
 
 nav a {
     color: #FFFFFF;
+    padding: 10px 0 15px 0;
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: -15px;
 }
 
 nav ul {
@@ -51,7 +55,7 @@ nav ul {
 
 nav button {
     margin: 0.2rem 2%;
-    
+
 }
 
 nav a:hover{
@@ -84,6 +88,5 @@ nav ul.hide {
     padding-left: left;
     display: block;
     margin: 2px auto;
-    color:#65B800;
     text-decoration: none;
 }

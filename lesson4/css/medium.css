@@ -7,4 +7,13 @@
         flex: 1 1 100%;
 
     }
+
+    nav button {
+        display: none;
+    
+    }
+
+    nav ul.hide  {
+        display: flex;
+    }
 }

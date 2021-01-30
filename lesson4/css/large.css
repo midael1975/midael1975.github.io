@@ -2,7 +2,22 @@
     nav ul {
     list-style: none; /*removes the bullets! */
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
-    margin-left: -60px;
+	grid-template-columns: repeat(1fr);
+    margin-left: 20px;
+    margin-right: -80px;
+    }
+
+    nav button {
+        display: none;
     
     }
+
+    nav ul.hide  {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+
+    }
+}

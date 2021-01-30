@@ -1,19 +1,16 @@
 @media (min-width: 32.5em) {
+    nav{
+        text-align: center;
+    }
+
     nav ul {
-        display: flex;
+        text-align: center;
     }
     
     nav ul li {
-        flex: 1 1 100%;
-
+        display: block;
+        text-align: center;
     }
 
-    nav button {
-        display: none;
-    
-    }
 
-    nav ul.hide  {
-        display: flex;
-    }
 }

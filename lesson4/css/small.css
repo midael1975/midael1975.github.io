@@ -44,26 +44,24 @@ header img {
 
 nav {
     background-color:  #00589b;
-    margin-top: -20px;
-    margin-bottom: -22px;
+    text-align: center;
 }
 
 nav a {
     color: #FFFFFF;
-    padding: 10px 0 15px 0;
     font-size: 1.5rem;
-    display: flex;
-    margin-left: -15px;
 }
 
 nav ul {
     list-style: none; /*removes the bullets! */
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 nav button {
-    margin: 0.2rem 2%;
-
+    margin: 1em;
+    text-align: center;
 }
 
 nav a:hover{
@@ -73,6 +71,7 @@ nav a:hover{
 
 nav ul.hide {
     display: none;
+    text-align: center;
 
 }
 
@@ -83,6 +82,7 @@ main, footer {
 
 main {
     background-color: #FFFFFF;
+    margin-top: -22px
 }
 
 footer {

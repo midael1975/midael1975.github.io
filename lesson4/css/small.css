@@ -24,6 +24,11 @@ header img {
     padding: 10px 10px 0px 15px ;
 }
 
+#ciudad {
+    text-align: center;
+    color:#DC0073;
+}
+
 #titulo {
     font-size: 45px;
     color:#DC0073;

@@ -2,6 +2,7 @@
     "php.executablePath": "PHP 7 + executable",
     "npm.exclude": "",
     "cSpell.words": [
+        "ciudad",
         "contenedor",
         "currentdate",
         "encabezado",

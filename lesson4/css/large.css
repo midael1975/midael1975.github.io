@@ -1,0 +1,8 @@
+@media (min-width: 64em) {
+    nav ul {
+    list-style: none; /*removes the bullets! */
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    margin-left: -60px;
+    
+    }

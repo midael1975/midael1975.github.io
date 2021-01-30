@@ -47,6 +47,10 @@ nav {
     text-align: center;
 }
 
+nav ul li {
+    padding: 7px
+}
+
 nav a {
     color: #FFFFFF;
     font-size: 1.5rem;

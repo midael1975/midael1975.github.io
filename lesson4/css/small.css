@@ -9,7 +9,6 @@ header {
     background-color: #008BF8;
 	align-items:center;
     justify-content:center;
-    
     padding: 5px 0;
 }
 
@@ -32,16 +31,12 @@ header img {
 #titulo {
     font-size: 45px;
     color:#DC0073;
-    
-
     text-align: center;
 }
 
 #slogan {
-  
     margin-bottom: 60px;
     color:#DC0073;
-    
     font-size: 2rem;
     margin-top: -30px;
     text-align: center;
@@ -64,7 +59,7 @@ nav a {
 nav ul {
     list-style: none; /*removes the bullets! */
     text-align: center;
- }
+}
 
 nav button {
     margin: 0.2rem 2%;
@@ -81,21 +76,21 @@ nav ul.hide {
 
 }
 
- main, footer {
+main, footer {
     margin: 1rem auto;
     max-width: 960px;
- }
+}
 
- main {
-     background-color: #FFFFFF;
- }
+main {
+    background-color: #FFFFFF;
+}
 
- footer {
+footer {
     background-color: #00589b;
     font-size: 25px;
     text-align: center;
     color: white;
- }
+}
 
 .contenedor {
     background-color: #4b7494;

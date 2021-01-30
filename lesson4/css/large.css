@@ -1,8 +1,6 @@
 @media (min-width: 64em) {
     nav ul {
     list-style: none; /*removes the bullets! */
-	display: grid;
-	grid-template-columns: repeat(1fr);
     }
 
     nav button {

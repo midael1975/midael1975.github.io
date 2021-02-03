@@ -1,0 +1,17 @@
+@media (min-width: 32.5em) {
+    nav{
+        text-align: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: block;
+        text-align: center;
+        padding: 7px;
+    }
+
+
+}

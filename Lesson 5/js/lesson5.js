@@ -5,6 +5,10 @@ function toggleMenu () {
     document.getElementById('mostrar').classList.toggle('hide');
 }
 
+var d = new Date();
+document.getElementById("fullYear").innerHTML = d.getFullYear();
+
+
 function day () {
     let dayOfWeek = new Date().getDay();
     let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];

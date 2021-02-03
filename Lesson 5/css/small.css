@@ -32,12 +32,12 @@ header img {
 #hero {
     width: 100%;
     border: 1px solid #FFDB30;
-	box-shadow: 10px 10px 10px #004777;
+    box-shadow: 10px 10px 10px #004777;
 }
 
 #summary {
     position: absolute;
-	top: 475px;
+	top: 445px;
 	left: 60px;
 	background: radial-gradient(#eee, #4567aa);
 	border: 1px solid #000;

@@ -36,7 +36,7 @@ header img {
 }
 
 #summary {
-    position: absolute;
+    position: static;
 	top: 465px;
 	left: 60px;
 	background: radial-gradient(#eee, #4567aa);
@@ -61,9 +61,7 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     margin-left: 85px;
-    
 }
-
 
 th {
     background-color: #008BF8;
@@ -164,7 +162,8 @@ footer {
     top: 0;
     left: 0;
     right: 0;
-    padding: .5em;    
+    padding: .5em; 
+    display: none;   
 }
 
 

@@ -37,7 +37,7 @@ header img {
 
 #summary {
     position: absolute;
-	top: 445px;
+	top: 465px;
 	left: 60px;
 	background: radial-gradient(#eee, #4567aa);
 	border: 1px solid #000;
@@ -159,16 +159,13 @@ footer {
 }
 
 #feedback {
-    background-color: antiquewhite;
+    background-color: rgb(204, 191, 14);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    padding: .5em;
-    /* make this element invisible until we are ready for it */
-    display: none;
-        
+    padding: .5em;    
 }
-.moveDown {
-    margin-top: 3em;
-}
+
+
+

@@ -59,7 +59,7 @@ h2 {
 }
 
 #five {
-    text-align: center;
+    display: none;
 }
 
 table, th, td {

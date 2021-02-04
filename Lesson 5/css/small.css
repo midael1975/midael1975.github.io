@@ -53,6 +53,11 @@ header img {
     text-decoration: underline;
 }
 
+h2 {
+    text-align: center;
+    color:#DC0073
+}
+
 #five {
     text-align: center;
 }

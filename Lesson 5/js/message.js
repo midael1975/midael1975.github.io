@@ -1,6 +1,6 @@
 let dayOfWeek = new Date().getDay();
-let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-function message () {
+
+
     if (dayOfWeek==5) {
         document.getElementById("feedback").style.display = "block";
     }
@@ -8,5 +8,5 @@ function message () {
     else {
         document.getElementById("feedback").style.display = "none";
     }
-}
+
 

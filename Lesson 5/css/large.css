@@ -19,5 +19,17 @@
 
     }
 
+    #one {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50px 50px 80px 80px 80px;
+        margin-top: 15px;
+
+    }
+
+    #contacto {
+        height: 100%;
+    }
+
    
 }

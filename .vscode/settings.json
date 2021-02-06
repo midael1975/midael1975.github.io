@@ -43,5 +43,6 @@
         "sunt",
         "titulo",
         "ul"
-    ]
+    ],
+    "editor.linkedEditing": true
 }

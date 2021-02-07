@@ -13,24 +13,8 @@
         padding: 7px;
     }
 
-    #one {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 50px 50px 80px 80px 80px;
-        margin-top: 15px;
-
-    }
-
     .parrafo {
-        grid-column: 1/3;
-        margin-top: 5px;
-    }
-
-    #articulo {
-        grid-column: 3/4;
-        grid-row: 2/4;
-        width: 100%;
-        margin-top: 20px;
+        padding: 5px;
     }
 
     #five {
@@ -40,16 +24,16 @@
 
 
     #summary {
-            left: 200px;
+            left: 10px;
             position: absolute;
-            top: 465px;
+            top: 525px;
             background: radial-gradient(#eee, #4567aa);
             border: 1px solid #000;
             padding: 5px;
             box-shadow: 0 0 30px #111;
             opacity: .8;
             text-align: center;
-            line-height: 5px;
+            line-height: 1px;
             color: green;
         
     }
@@ -61,7 +45,7 @@
         grid-gap: 20px;
         border: 1px solid #FFDB30;
         box-shadow: 10px 10px 10px #004777;
-
+        height: 350px;
     }
 
     #contacto {
@@ -77,18 +61,21 @@
     #information {
         grid-column: 3/4;
         grid-row: 1/2;
+        padding-bottom: 100px;
     }
 
     #pie {
         background-color: #00589b;
         grid-column: 1/4;
         grid-row: 2/3;
-        height: 50px;
+        margin-top: 20px;
     }
 
     table, th, td {
-        margin-left: 150px;
-        width: 700px;
+        margin-left: 80px;
+        width: 400px;
+        
+
     }
 
     #hero {

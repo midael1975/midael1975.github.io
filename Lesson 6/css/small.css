@@ -30,7 +30,8 @@ header img {
 }
 
 #hero {
-    width: 100%;
+    width: auto;
+    height: auto;
     border: 1px solid #FFDB30;
     box-shadow: 10px 10px 10px #004777;
 }

@@ -42,21 +42,22 @@
             <h2 id="ciudad">Preston, Idaho</h2>
             <div>
                 <picture id="hero">
-                    <source srcset="images/lesson6400.jpg" media="(min-width: 500px) and 
+                    <source srcset="images/lesson6medium.jpg" media="(min-width: 500px) and 
                     (max-width: 799px)">
-                       <source srcset="images/lesson6600.jpg" media="(min-width: 800px)">
-                    <img src="images/lesson6250.jpg"  alt="Example">
+                       <source srcset="images/lesson6large.jpg" media="(min-width: 800px)">
+                    <img src="images/image lesson6.jpg" alt="Example">
                 </picture>
             </div>
 
             <div id="summary">
                 <h2 id="clima">Weather Summary</h2>
                 <p>Currently: Sunny</p>
-                <p>Wind Chill: °F</p>
-                <p>High: 76.1°F</p>
-                <p>Wind Speed: 8mph</p>
+                <p>Wind Chill:<span id="windChill"></span> <script src="js/windChill.js"></script>°F</p>
+                <p>Temperature: <span id="temp">48.6</span>°F</p>
+                <p>Wind Speed: <span id="speed">8</span>mph</p>
                 <p>Humidity:69%</p>
             </div>
+            
 
             <h2>5 Day forecast</h2>
 

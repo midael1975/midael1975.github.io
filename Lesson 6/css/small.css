@@ -29,15 +29,18 @@ header img {
     color:#DC0073;
 }
 
+
+
 #hero {
     width: 100%;
-    border: 1px solid #FFDB30;
-    box-shadow: 10px 10px 10px #004777;
+
 }
 
 #primero {
     display: block;
     margin: auto;
+    border: 1px solid #FFDB30;
+    box-shadow: 10px 10px 10px #004777;
 }
 
 .small {

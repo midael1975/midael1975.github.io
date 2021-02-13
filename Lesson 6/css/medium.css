@@ -24,17 +24,18 @@
 
 
     #summary {
-            left: 10px;
+            left: 200px;
             position: absolute;
-            top: 525px;
+            top: 485px;
             background: radial-gradient(#eee, #4567aa);
             border: 1px solid #000;
-            padding: 5px;
+            padding: 0.5px;
             box-shadow: 0 0 30px #111;
             opacity: .8;
             text-align: center;
-            line-height: 1px;
+            line-height: 0.5px;
             color: green;
+            font-size: small;
         
     }
 
@@ -74,8 +75,6 @@
     table, th, td {
         margin-left: 80px;
         width: 400px;
-        
-
     }
 
     #hero {
@@ -83,5 +82,34 @@
 	    box-shadow: 10px 10px 10px #004777;
     }
 
+    #primero {
+        display: block;
+        margin: auto;
+    }
 
+    .small {
+        display: none;
+        position: absolute;
+        top: 610px;
+        right: 100px;
+        color:white;
+        font-size: small;
+    }
+    
+    .medium {
+        position: absolute;
+        top: 310px;
+        right: 30%;
+        color:white;
+        font-size: 30px;
+    }
+    
+    .large {
+        display: none;
+        position: absolute;
+        top: 310px;
+        right: 30%;
+        color:white;
+        font-size: 30px;
+    }
 }

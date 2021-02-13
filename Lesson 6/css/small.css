@@ -33,7 +33,37 @@ header img {
     width: 100%;
     border: 1px solid #FFDB30;
     box-shadow: 10px 10px 10px #004777;
-    align-items: center;
+}
+
+#primero {
+    display: block;
+    margin: auto;
+}
+
+.small {
+    position: static;
+    top: 310px;
+    right: 30%;
+    color:white;
+    font-size: small;
+}
+
+.medium {
+    display: none;
+    position: absolute;
+    top: 210px;
+    right: 10%;
+    color:white;
+    font-size: 30px;
+}
+
+.large {
+    display: none;
+    position: absolute;
+    top: 110px;
+    right: 30%;
+    color:white;
+    font-size: 30px;
 }
 
 #summary {
@@ -42,7 +72,7 @@ header img {
 	left: 60px;
 	background: radial-gradient(#eee, #4567aa);
 	border: 1px solid #000;
-	padding: 5px;
+	padding: 0px;
 	box-shadow: 0 0 30px #111;
     opacity: .8;
     text-align: center;

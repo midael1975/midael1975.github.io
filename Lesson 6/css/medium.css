@@ -25,6 +25,7 @@
     #herosum {
         display: grid;
         grid-template-columns: 1fr 180px 1fr 1fr;
+        
     }
 
     #hero {
@@ -35,6 +36,7 @@
     #primero {
         border: 1px solid #FFDB30;
 	    box-shadow: 10px 10px 10px #004777;
+        
     }
 
     #summary {

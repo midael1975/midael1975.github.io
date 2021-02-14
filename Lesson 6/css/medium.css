@@ -25,7 +25,7 @@
     #herosum {
         display: grid;
         grid-template-columns: 1fr 180px 1fr 1fr;
-        
+        margin-left: 0;
     }
 
     #hero {
@@ -36,7 +36,8 @@
     #primero {
         border: 1px solid #FFDB30;
 	    box-shadow: 10px 10px 10px #004777;
-        
+        display: block;
+        margin: auto;
     }
 
     #summary {
@@ -55,6 +56,25 @@
         
     }
 
+    .label {
+        display: inline;
+        grid-column: 3/4;
+        grid-row: 1/2;
+        color:rgb(177, 23, 23);
+        font-size: 30px;
+        text-align: right;
+    }
+
+    #medium {
+        display: inline;
+    }
+    #small {
+        display: none;
+    }
+
+    #large {
+        display: none;
+    }
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr;

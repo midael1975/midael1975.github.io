@@ -80,31 +80,24 @@
         
     }
 
-.small {
-    display: none;
-    position: absolute;
-    top: 310px;
-    right: 30%;
-    color:white;
-    font-size: 30px;
-}
+    .label {
+        display: inline;
+        grid-column: 4/5;
+        grid-row: 1/2;
+        color:rgb(177, 23, 23);
+        font-size: 30px;
+        text-align: center;
+    }
 
-.medium {
-    display: none;
-    position: absolute;
-    top: 310px;
-    right: 30%;
-    color:white;
-    font-size: 30px;
-}
+    #large {
+        display: inline;
+    }
+    #medium {
+        display: none;
+    }
 
-.large {
-    position: absolute;
-    top: 310px;
-    right: 30%;
-    color:white;
-    font-size: 30px;
-}
-
+    #small {
+        display: none;
+    }
 
 }

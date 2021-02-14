@@ -10,7 +10,7 @@ header {
 	align-items:center;
     justify-content:center;
     padding: 5px 0;
-    height: 150px;
+    height: 180px;
 }
 
 #encabezado {
@@ -67,7 +67,7 @@ header img {
     display: inline;
     grid-column: 3/4;
     grid-row: 1/2;
-    color:rgb(177, 23, 23);
+    color: white;
     font-size: 30px;
     text-align: center;
 }

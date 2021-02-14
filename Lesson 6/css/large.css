@@ -1,4 +1,8 @@
 @media (min-width: 64em) {
+    header {
+        height: 150px;
+    }
+    
     nav ul {
     list-style: none; /*removes the bullets! */
     }
@@ -84,7 +88,7 @@
         display: inline;
         grid-column: 4/5;
         grid-row: 1/2;
-        color:rgb(177, 23, 23);
+        color: white;
         font-size: 30px;
         text-align: center;
     }

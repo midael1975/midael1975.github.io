@@ -13,7 +13,7 @@ const loadImages = (image) => {
 }
 
 if ('IntersectionObserver' in window) {
-    const imgObserver = new IntersectionObserver ((items, observer) =>{
+    const imgObserver = new IntersectionObserver ((items, observer) => {
         items.forEach((item) => {
         });
     }, imgOptions);

@@ -1,8 +1,8 @@
-let imagesToLoad = document.querySelectorAll('img[data-src]');
+/*let imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const imgOptions = {
     threshold: 0,
-    rootMargin: "0px 0px 50px 0px"
+    rootMargin: "0px 0px 300px 0px"
 };
 
 const loadImages = (image) => {
@@ -15,8 +15,13 @@ const loadImages = (image) => {
 if ('IntersectionObserver' in window) {
     const imgObserver = new IntersectionObserver ((items, observer) => {
         items.forEach((item) => {
-        });
-    }, imgOptions);
+         if(item.isIntersecting) {
+             loadImages(item.target);
+             observer.unobserve(item.target);
+         }
+      });
+    });
+
 
     imagesToLoad.forEach((img) => {
         loadImages(img);
@@ -24,5 +29,39 @@ if ('IntersectionObserver' in window) {
 }
 
   else {
-
+    imagesToLoad.forEach((img) => {
+        loadImages(img);
+        });
   } 
+*/
+
+const images = document.querySelectorAll("[data-src]");
+
+function preloadImage(img) {
+  const src = img.getAttribute("data-src");
+  if (!src) {
+    return;
+  }
+
+  img.src = src;
+}
+
+const imgOptions = {
+  threshold: 0,
+  rootMargin: "0px 0px 400px 0px",
+};
+
+const imgObserver = new IntersectionObserver((items, imgObserver) => {
+  items.forEach((item) => {
+    if (!item.isIntersecting) {
+      return;
+    } else {
+      preloadImage(item.target);
+      imgObserver.unobserve(item.target);
+    }
+  });
+}, imgOptions);
+
+images.forEach((image) => {
+    imgObserver.observe(image);
+  });

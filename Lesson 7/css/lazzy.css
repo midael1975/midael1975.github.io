@@ -7,3 +7,9 @@ img {
     margin: auto;
     padding-top: 10px;
 }
+
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }

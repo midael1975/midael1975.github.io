@@ -64,26 +64,6 @@ header img {
     
 }
 
-.label {
-    display: inline;
-    grid-column: 3/4;
-    grid-row: 1/2;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-}
-
-#small {
-    display: inline;
-}
-#medium {
-    display: none;
-}
-
-#large {
-    display: none;
-}
-
 #clima {
     text-decoration: underline;
 }

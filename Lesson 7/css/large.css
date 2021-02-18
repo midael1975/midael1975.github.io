@@ -1,6 +1,6 @@
 @media (min-width: 64em) {
     header {
-        height: 150px;
+        height: 120px;
     }
     
     nav ul {
@@ -54,8 +54,8 @@
 
     #herosum {
         display: grid;
-        grid-template-columns: 200px 200px 200px 200px;
-        margin-left: 100px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
     }
 
     #hero {
@@ -66,6 +66,9 @@
     #primero {
         border: 1px solid #FFDB30;
 	    box-shadow: 10px 10px 10px #004777;
+        display: block;
+        margin: auto;
+
     }
 
     #summary {
@@ -82,26 +85,6 @@
             color: green;
             font-size: small;
         
-    }
-
-    .label {
-        display: inline;
-        grid-column: 4/5;
-        grid-row: 1/2;
-        color: white;
-        font-size: 30px;
-        text-align: center;
-    }
-
-    #large {
-        display: inline;
-    }
-    #medium {
-        display: none;
-    }
-
-    #small {
-        display: none;
     }
 
 }

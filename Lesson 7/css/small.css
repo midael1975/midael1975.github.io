@@ -162,6 +162,10 @@ footer {
     color: white;
 }
 
+#Information h2 {
+    color: white;
+}
+
 #contacto {
     width: 100%;
 
@@ -191,14 +195,23 @@ footer {
 
 #galeria {
     display: grid;
-     grid-template-columns: 1fr;
+     grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+     max-width: 1024px;
      gap: 10px;
+     margin-left: 0;
+     margin-right: 0;
+     grid-template-rows: repeat(auto-fill,minmax(210px,1fr));
+   
 }
 
 figure {
     display: block;
     margin: auto;
     text-align: center;
+}
+
+figure img {
+    width: 100%;
 }
 
 

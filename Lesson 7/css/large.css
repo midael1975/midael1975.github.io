@@ -87,15 +87,12 @@
         
     }
 
-    .imagen :hover {
+    .imagen:hover {
         border: 1px solid #FFDB30;
 	    box-shadow: 10px 10px 10px #004777;
     }
 
-    figure {
-        text-align: center;
-
-    }
+   
 
 
 }

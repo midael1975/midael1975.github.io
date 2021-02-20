@@ -196,7 +196,7 @@ footer {
 #galeria {
     display: grid;
      grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
-     max-width: 1024px;
+     max-width: 960px;
      gap: 10px;
      margin-left: 0;
      margin-right: 0;

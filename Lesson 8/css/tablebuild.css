@@ -14,7 +14,7 @@ td, th {
     padding: 10px 20px;
 }
 
-thead {
+thead tr{
     background-color: #7fb9c2;
     color: black;
     font-style: normal;
@@ -35,10 +35,12 @@ tbody tr:nth-child(even) td {
     background-color: #e7f0ed;
 }
 
-tbody tr:nth-child(odd) td {
+tr {
     background-color: #e7ffed;
 }
 
-#italic {
-    font-style: italic;
+.nov {
+    background-color: #628ca6;
+    color: white;
 }
+

@@ -92,7 +92,31 @@
 	    box-shadow: 10px 10px 10px #004777;
     }
 
-   
+    form {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
 
+    .comment {
+        grid-column: 1/4;
+        
+    }
+
+    textarea {
+    grid-column: 1/4;
+    border: solid 2px #999;
+    border-radius: 4px;
+    width: 100%;
+    margin: 0;
+    }
+
+    .enviar {
+        grid-column: 2/3;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: yellow;
+        margin-left: auto;
+        }
 
 }

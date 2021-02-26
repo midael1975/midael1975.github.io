@@ -39,36 +39,34 @@
 
         <main>
 
-            <form method="get" action="#" class="grid">
+            <form method="get" action="#">
                 <fieldset>
                     <legend>Personal Information</legend>
-                    <label>Firts Name:<br>
-                        <input type="text" name="input1" required pattern="[A-Za-z]">
+                    <label>Firts Name (least 5 Characters)*:<br>
+                        <input type="text" name="firts" class="unico" required minlength="5" maxlength="10" pattern="[A-Za-z]">
                     </label><br>
                     <label>Last Name:<br>
-                        <input type="text" name="last" required pattern="[A-Za-z]">
+                        <input type="text" name="last" class="unico" required pattern="[A-Za-z]">
                     </label><br>
-                    <label for="zip">Zip Code:<br>
-                        <input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep"></label><br>
-                    <!-- use the label example here -->
+                    <label>Zip Code:<br>
+                        <input type="text" name="zip" class="unico" pattern="(\d{5}([\-]\d{4})?)" 
+                        autocomplete="shipping postal-codep"></label><br>
                     <label>Phone:<br>
-                        <input type="tel" name="phone" placeholder="0414-556-0383">
+                        <input type="tel" name="phone" class="unico" placeholder="0414-556-0383">
                     </label><br>
                     <label>eMail:<br>
-                        <input type="email" name="email" placeholder="user@email.org"></label><br>
+                        <input type="email" name="email" class="unico" placeholder="user@email.org"></label><br>
                     
                 </fieldset>
-            
-                    <!-- this demonstrates the two ways to use labels (for) and (surround) - demonstrate what happens -->
-                    <fieldset class="nestedfieldset">
+
+                <fieldset>
                         <legend>Storm Information <em>(Choose one)</em></legend>
-                        <div class="selection">
-                            <legend>Are you in Danger</legend>
-                            <input type="radio" id="time1" name="select" value="Yes" checked> <label>Yes</label>
-                            <label><input type="radio" name="select" value="9">No</label>
-                            <input type="radio" id="time3" name="time" value="10"><label for="time3">Maybe</label><br>
+                            <label>Are you in Danger?</label><br><br>
+                            <input type="radio" name="select" value="Yes" class="unico" checked> <label>Yes</label>
+                            <label><input type="radio" name="select" value="no" class="unico">No</label>
+                            <label><input type="radio" class="unico" name="select" value="maybe">Maybe</label><br><br>
                             <label>Storm Date:<br>
-                            <input type="date" name="theDate"></label><br>
+                            <input type="date" name="theDate"class="unico" ></label><br><br>
                             <label>Storm Type:<br>
                                 <select>
                                     <option>Please Select</option>
@@ -79,24 +77,25 @@
                                     <option value="tornado">Tornado</option>
                                 </select>
                             </label><br>
-                    </fieldset>
+                </fieldset>
 
-                    <fieldset>
+                <fieldset>
                             <legend>Storm Region</legend>
                             <label>Storm Area<br>
                                 <select>
                                     <option disabled>Select Region</option>
-                                    <option value="flashflood">Preston</option>
-                                    <option value="hail">Soda Springs</option>
-                                    <option value="hurricane">Fish Haven</option>
+                                    <option value="preston">Preston</option>
+                                    <option value="sodasprings">Soda Springs</option>
+                                    <option value="fishhaven">Fish Haven</option>
                                 </select>
-                            </label><br>
+                            </label><br><br>
                             <label>Storm Severity</label><br>
-                            <label class="flexly" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+                            <label>Rating:&nbsp;&nbsp;&nbsp;
                                 <input type="range" id="rating" value="5" min="1" max="10" 
                                 step="1" list="tickmarks" oninput="adjustRating(this.value)" 
                                 onchange="adjustRating(this.value)">
-                                <span id="ratingvalue">5</span>
+                                <span id="ratingvalue">5</span><script src="js/rating.js">
+                                </script>
                             </label>
                             <datalist id="tickmarks">
                                 <option value="0">
@@ -111,22 +110,16 @@
                                 <option value="9">
                                 <option value="10">
                             </datalist>
-                    </fieldset>       
-                            
-                        </div>
-                        
-                    </fieldset>
-            
-                <fieldset>
-                    <div class="buttons bottom">
-                    <input type="submit" class="sbutton"><br>
-                    </div>
+                </fieldset> 
+                
+                <fieldset class="comment">
+                    <legend>Additional Information</legend>
+                    <label>
+                        <textarea name="user_message" placeholder="Message"></textarea>
+                    </label>
                 </fieldset>
+                    <input type="submit" class="enviar" name="enviar" value="Submit">
             </form>
-            
-            <div id="selected"></div>
-
-            
 
         </main>
 

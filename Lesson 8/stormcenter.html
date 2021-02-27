@@ -39,14 +39,15 @@
 
         <main>
 
-            <form method="get" action="#">
+            <form method="get" action="/action_page.php">
                 <fieldset>
                     <legend>Personal Information</legend>
                     <label>Firts Name (least 5 Characters)*:<br>
-                        <input type="text" name="firts" class="unico" required minlength="5" maxlength="10" pattern="[A-Za-z]">
+                        <input type="text" name="firts" class="unico" required pattern="[A-Za-z]{5,10}">
+                        <span class="validity"></span>
                     </label><br>
                     <label>Last Name:<br>
-                        <input type="text" name="last" class="unico" required pattern="[A-Za-z]">
+                        <input type="text" name="last" class="unico" required pattern="[A-Za-z]{5,10}">
                     </label><br>
                     <label>Zip Code:<br>
                         <input type="text" name="zip" class="unico" pattern="(\d{5}([\-]\d{4})?)" 

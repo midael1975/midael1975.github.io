@@ -94,12 +94,10 @@
 
     form {
         display: block;
-        
     }
 
 
     textarea {
-    
     border: solid 2px #999;
     border-radius: 4px;
     width: 100%;

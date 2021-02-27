@@ -127,7 +127,7 @@
 
     form {
         display: block;
-        
+    
     }
 
     textarea {
@@ -135,13 +135,13 @@
         border-radius: 4px;
         width: 100%;
         margin: 0;
-        }
+    }
 
     .enviar {
         margin: auto;
         padding: 10px;
         background-color: yellow;
         margin-top: 20px;
-        }
+    }
 }
 

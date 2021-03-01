@@ -1,5 +1,5 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
-const prophets = jsonObject['prophets'];
+const requestURL = "https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json";
+
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -8,4 +8,5 @@ fetch(requestURL)
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     for (let i = 0; i < prophets.length; i++ ) {} 
   });
+  const prophets = jsonObject['prophets'];
   

@@ -5,8 +5,22 @@ body{
     margin: 0;
 }
 main {
-    width: 960px;
+    max-width: 960px;
     flex-grow: 1;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+#one {
+    grid-column: 1/2;
 }
 footer{
     margin: auto;

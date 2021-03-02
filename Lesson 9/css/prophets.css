@@ -1,14 +1,9 @@
 body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     margin: 0;
 }
 main {
     max-width: 960px;
-    flex-grow: 1;
     margin: auto;
-    display: block;
 }
 
 h1 {
@@ -17,15 +12,28 @@ h1 {
 
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+     grid-template-columns: repeat(auto-fill,minmax(220px, 1fr));
+     max-width: 100%;
+     gap: 5px;
+     margin-left: 0;
+     margin-right: 0;
+     grid-template-rows: repeat(auto-fill,minmax(200px,1fr));
 }
 
-#one {
-    grid-column: 1/2;
+section {
+    display: block;
+    margin: auto;
+    text-align: center;
 }
+
+section img {
+    width: 100%;
+}
+
+
 footer{
     margin: auto;
     display: block;
     font-size: 20px;
+    text-align: center;
 }

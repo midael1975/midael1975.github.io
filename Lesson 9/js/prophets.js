@@ -14,7 +14,8 @@ let p = document.createElement('p');
 let image =document.createElement('img');
 
 h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-p.textContent =  prophets[i].birthdate + ' ' + prophets[i].death + ' ' + prophets[i].length;
+p.textContent =  'Date of Birth:' + ' ' + prophets[i].birthdate + ' ' + 'Death:' + '' + prophets[i].death + ' ' + 'Length:' + '' + prophets[i].length + ' ' +
+'Order:' + ' ' + prophets[i].order + ' ' + 'Birth place:' + ' ' + prophets[i].birthplace + ' ' + 'Children:' + ' ' + prophets[i].numofchildren;
 image.setAttribute('src', prophets[i].imageurl);
 
 card.appendChild(h2);

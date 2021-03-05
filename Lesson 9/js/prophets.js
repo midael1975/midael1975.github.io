@@ -17,6 +17,7 @@ h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
 p.textContent =  'Date of Birth:' + ' ' + prophets[i].birthdate + ' ' + 'Death:' + '' + prophets[i].death + ' ' + 'Length:' + '' + prophets[i].length + ' ' +
 'Order:' + ' ' + prophets[i].order + ' ' + 'Birth place:' + ' ' + prophets[i].birthplace + ' ' + 'Children:' + ' ' + prophets[i].numofchildren;
 image.setAttribute('src', prophets[i].imageurl);
+image.setAttribute( 'alt', prophets[i].name + ' ' + prophets[i].lastname + '-' + prophets[i].order)
 
 card.appendChild(h2);
 card.appendChild(p);

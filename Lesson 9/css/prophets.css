@@ -32,7 +32,7 @@ section {
 }
 
 section img {
-    width: 80%;
+    width: 90%;
     height: 200px;
     margin: auto;
     display: block;
@@ -41,8 +41,9 @@ section img {
 }
 
 p {
-    font-size: 16px;
+    font-size: medium;
     text-align: center;
+    margin: 6px;
 }
 
 

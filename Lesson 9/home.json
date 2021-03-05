@@ -2,7 +2,7 @@
     "towns": [
       {
         "name": "Fish Haven",
-        "photo": "fishhaven.jpg",
+        "photo": "https://midael1975.github.io/Lesson%209/images/FishHaven.jpg",
         "motto": "This is Fish Heaven.",
         "yearFounded": 1864,
         "currentPopulation": 501,

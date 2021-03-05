@@ -44,21 +44,6 @@
         margin: auto;
     }
 
-    #summary {
-            grid-column: 2/3;
-            grid-row: 1/2;
-            top: 435px;
-            background: radial-gradient(#eee, #4567aa);
-            border: 1px solid #000;
-            padding: 2px;
-            box-shadow: 0 0 30px #111;
-            opacity: .8;
-            text-align: center;
-            line-height: 1px;
-            color: green;
-            font-size: small;
-        
-    }
 
     footer {
         display: grid;

@@ -1,4 +1,4 @@
-const requestURL = 'https://lesson 9/home.json';
+const requestURL = 'https://midael1975.github.io/Lesson%209/home.json';
 
 fetch(requestURL)
   .then(function (response) {

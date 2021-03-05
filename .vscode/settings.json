@@ -74,7 +74,8 @@
         "titulo",
         "ul",
         "unico",
-        "wildwest"
+        "wildwest",
+        "yearfounded"
     ],
     "editor.linkedEditing": true
 }

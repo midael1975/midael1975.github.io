@@ -30,7 +30,7 @@ home.appendChild(p);
 home.appendChild(image);
 res.appendChild(home);
         res.appendChild(image);
-        res.setAttribute('class',"town");
+        res.setAttribute('class',"hopage");
         home.setAttribute('class', "data");
         if(i%2==0){
             image.setAttribute('class', "derecha");

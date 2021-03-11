@@ -3,10 +3,10 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    document.getElementById('description').textContent = jsObject.main.description;
+    document.getElementById('description').textContent = jsObject.weather[0].main;
     document.getElementById('temp').textContent = jsObject.main.temp;
     document.getElementById('humidity').textContent = jsObject.main.humidity;
-    document.getElementById('speed').textContent = jsObject.main.speed;
+    document.getElementById('speed').textContent = jsObject.wind.speed;
     document.getElementById('td').textContent = jsObject.main.temp;
     document.getElementById('td1').textContent = jsObject.main.temp;
     document.getElementById('td2').textContent = jsObject.main.temp;

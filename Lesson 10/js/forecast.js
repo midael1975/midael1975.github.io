@@ -3,6 +3,6 @@ fetch(apiforestURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    document.getElementById('current-temp').textContent = jsObject.main.temp;
+    document.getElementById('td').textContent = jsObject.main.temp;
   
   });

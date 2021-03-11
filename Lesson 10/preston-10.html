@@ -41,19 +41,22 @@
             <h2 id="ciudad">Preston, Idaho</h2>
             <div id="herosum">
                 <picture id="hero">
-                    <source srcset="images/lesson6medium.jpg" media="(min-width: 520px) and 
+                    <source srcset="images/Prestonmedium.jpg" media="(min-width: 520px) and 
                     (max-width: 1023px)">
-                       <source srcset="images/lesson6large.jpg" media="(min-width: 1024px)">
-                    <img src="images/image lesson6.jpg" alt="Example" id="primero">
+                       <source srcset="images/Prestonlarge.jpg" media="(min-width: 1024px)">
+                    <img src="images/Prestonlesson7.jpg" alt="" id="primero">
                 </picture>
+
 
                 <section id="summary">
                 <h2 id="clima">Weather Summary</h2>
-                <p>Currently:<span id="main"></span></p>
-                <p>Wind Chill:<span id="windChill"></span> °F</p>
-                
+                <p>Currently:<span id="description"></span></p>
+                <p>Wind Chill:<span id="windChill"></span><script src="js/windChill.js"></script> °F</p>
+                <script>
+                    document.getElementById("windChill").innerHTML = windChill(temp, speed);
+                </script>
                 <p>Temperature: <span id="temp"></span>°F</p>
-                <p>Wind Speed: <span id="wind"></span>mph</p>
+                <p>Wind Speed: <span id="speed">4</span>mph</p>
                 <p>Humidity:<span id="humidity"></span>%</p>
                  <script src="js/preston10.js"></script>
                 </section>
@@ -62,46 +65,48 @@
 
             <h2>5 Day forecast</h2>
 
-            <div id="five">
+            <div id="five"> 
                  
                 <table>
+                    
                     <tr>
                         <th>
-                           Wed
+                            Wed <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon">                     
                         </th>
                         <th>
-                            Thu
+                            Thu <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon">
                         </th>
                         <th>
-                            Fry
+                            Fry <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon">
                         </th>
                         <th>
-                            Sat
+                            Sat <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon">
                         </th>
                         <th>
-                            Sun
+                            Sun <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon">
                         </th>
                     </tr>
                     <tr>
-                        <td>
-                            89°F
+                        <td id="td">
+                            
                         </td>
-                        <td>
+                        <td id="td1">
                             91°F
                         </td>
-                        <td>
+                        <td id="td2">
                             87°F
                         </td>
-                        <td>
+                        <td id="td3">
                             93°F
                         </td>
-                        <td>
+                        <td id="td4">
                             90°F
                         </td>
                     </tr>
                 </table>  
+                
             </div>
-
+            
             <div id="one">
                 <p id="uno" class="parrafo">by Wilker Pacheco</p>
                 <p id="dos" class="parrafo">The city of Preston, Idaho was founded in 1900, with a population of 5,354, sits at an elevation of 4,718ft, and has many options for the family to enjoy.</p>

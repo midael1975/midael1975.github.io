@@ -1,5 +1,3 @@
-let temp;
-let speed;
 function windChill(temp, speed){
     let chill;
     if ( temp <=50 && speed >3) {
@@ -9,5 +7,6 @@ function windChill(temp, speed){
     else {
         chill = "N/A";  
     }
-    return chill;
+    return chill.toFixed(2);
+    
 }

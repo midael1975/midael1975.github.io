@@ -7,15 +7,21 @@ fetch(apiURL)
     document.getElementById('temp').textContent = jsObject.main.temp;
     document.getElementById('humidity').textContent = jsObject.main.humidity;
     document.getElementById('speed').textContent = jsObject.wind.speed;
-    document.getElementById('td').textContent = jsObject.main.temp;
-    document.getElementById('td1').textContent = jsObject.main.temp;
-    document.getElementById('td2').textContent = jsObject.main.temp;
-    document.getElementById('td3').textContent = jsObject.main.temp;
-    document.getElementById('td4').textContent = jsObject.main.temp;
+
+    let t = parseFloat(document.getElementById("temp").innerHTML);
+    let s = parseFloat(document.getElementById("speed").innerHTML);
+     
+    if (t <= 50 && s > 3) {
+      let chill = 35.74 + 0.6215 * t - 35.75 * Math.pow(s, 0.16) + 0.4275 * t * Math.pow(s, 0.16);
     
-    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
-const desc = jsObject.weather[0].description;  // note how we reference the weather array
-document.getElementById('imagesrc').getAttribute = imagesrc;// informational specification only
-document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-document.getElementById('icon').setAttribute('alt', desc);    
-  });
+      chill = document.getElementById("windchill").innerHTML =
+        chill.toFixed(2);
+    } 
+    
+    else {
+      chill = "Not Applicable";
+    
+    }  
+
+});
+    

@@ -8,7 +8,7 @@ fetch(apiURL)
     document.getElementById('humidity').textContent = jsObject.main.humidity;
     document.getElementById('speed').textContent = jsObject.wind.speed;
 
-   let t = parseFloat(document.getElementById("temp").innerHTML);
+    let t = parseFloat(document.getElementById("temp").innerHTML);
     let s = parseFloat(document.getElementById("speed").innerHTML);
      
     if (t <= 50 && s > 3) {
@@ -21,7 +21,7 @@ fetch(apiURL)
     else {
       chill = "Not Applicable";
     
-    } 
+    }  
 
 });
 

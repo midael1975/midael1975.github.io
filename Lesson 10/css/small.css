@@ -83,9 +83,6 @@ table, th, td {
     margin-left: 85px;
 }
 
-td img {
-    width:30%;
-}
 th {
     background-color: #008BF8;
     color: white;
@@ -217,17 +214,6 @@ figure img {
     width: 100%;
 }
 
-/*para prueba*/
-
-#five-days {
-    display: grid;
-     grid-template-columns: repeat(auto-fill,minmax(50px, 1fr));
-     max-width: 400px;
-     gap: 5px;
-     margin-left: 0;
-     margin-right: 0;
-     grid-template-rows: repeat(auto-fill,minmax(50px,1fr));
-}
 
 
 

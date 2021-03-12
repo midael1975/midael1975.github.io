@@ -8,7 +8,7 @@ fetch(apiURL)
     document.getElementById('humidity').textContent = jsObject.main.humidity;
     document.getElementById('speed').textContent = jsObject.wind.speed;
 
-    let t = parseFloat(document.getElementById("temp").innerHTML);
+   let t = parseFloat(document.getElementById("temp").innerHTML);
     let s = parseFloat(document.getElementById("speed").innerHTML);
      
     if (t <= 50 && s > 3) {
@@ -21,7 +21,7 @@ fetch(apiURL)
     else {
       chill = "Not Applicable";
     
-    }  
+    } 
 
 });
 
@@ -33,14 +33,6 @@ fetch(apiforecastURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject); 
-
-    
-// Use API data to place names of next 5 days in table using a loop
-   
-    // step 1. Create new date object
-    // step 2. Use .String() to extract day name
-    // step 3. Create subsequent 4 days (how do I do this with a loop???)
-    
     
     const dateObject = new Date()
     const d1 = dateObject.toLocaleString('en-US', {weekday: "long"});
@@ -77,6 +69,7 @@ fetch(apiforecastURL)
 
 // Populate the temperature values in the 5 day by ID ??how to sort by date???
 
+
   document.getElementById('td').textContent = jsObject.list[0].main.temp + "\°";
   document.getElementById('td1').textContent = jsObject.list[1].main.temp + "\°";
   document.getElementById('td2').textContent = jsObject.list[2].main.temp + "\°";
@@ -111,14 +104,6 @@ fetch(apiforecastURL)
     document.getElementById('imagesrc5').textContent = imagesrc5;
     document.getElementById('icon5').setAttribute('src', imagesrc5);
     document.getElementById('icon5').setAttribute('alt', jsObject.list[4].weather[0].description);
-
-
-
-// const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
-// const desc = jsObject.weather[0].description;  // note how we reference the weather array
-// document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-// document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-// document.getElementById('icon').setAttribute('alt', desc);
 
 
 

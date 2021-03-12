@@ -94,8 +94,9 @@
     }
 
     table, th, td {
-        margin-left: 80px;
+        margin-left: 50px;
         width: 400px;
+        align-items: center;
     }
 
 

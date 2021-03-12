@@ -33,6 +33,7 @@ fetch(apiforecastURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject); 
+
     
     const dateObject = new Date()
     const d1 = dateObject.toLocaleString('en-US', {weekday: "long"});
@@ -70,42 +71,42 @@ fetch(apiforecastURL)
 // Populate the temperature values in the 5 day by ID ??how to sort by date???
 
 
-  document.getElementById('td').textContent = jsObject.list[0].main.temp + "\°";
-  document.getElementById('td1').textContent = jsObject.list[1].main.temp + "\°";
-  document.getElementById('td2').textContent = jsObject.list[2].main.temp + "\°";
-  document.getElementById('td3').textContent = jsObject.list[3].main.temp + "\°";
-  document.getElementById('td4').textContent = jsObject.list[4].main.temp + "\°";
+  document.getElementById('td').textContent = jsObject.list[6].main.temp + "\°";
+  document.getElementById('td1').textContent = jsObject.list[14].main.temp + "\°";
+  document.getElementById('td2').textContent = jsObject.list[22].main.temp + "\°";
+  document.getElementById('td3').textContent = jsObject.list[30].main.temp + "\°";
+  document.getElementById('td4').textContent = jsObject.list[38].main.temp + "\°";
 
 
 // Use API to change weather icons. Note that there are _two_ arrays to account for here!
 
-    const imagesrc1 = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png';
-    const imagesrc2 = 'https://openweathermap.org/img/w/' + jsObject.list[1].weather[0].icon + '.png';
-    const imagesrc3 = 'https://openweathermap.org/img/w/' + jsObject.list[2].weather[0].icon + '.png';
-    const imagesrc4 = 'https://openweathermap.org/img/w/' + jsObject.list[3].weather[0].icon + '.png';
-    const imagesrc5 = 'https://openweathermap.org/img/w/' + jsObject.list[4].weather[0].icon + '.png';
+    const imagesrc1 = 'https://openweathermap.org/img/w/' + jsObject.list[6].weather[0].icon + '.png';
+    const imagesrc2 = 'https://openweathermap.org/img/w/' + jsObject.list[14].weather[0].icon + '.png';
+    const imagesrc3 = 'https://openweathermap.org/img/w/' + jsObject.list[22].weather[0].icon + '.png';
+    const imagesrc4 = 'https://openweathermap.org/img/w/' + jsObject.list[30].weather[0].icon + '.png';
+    const imagesrc5 = 'https://openweathermap.org/img/w/' + jsObject.list[38].weather[0].icon + '.png';
           
     document.getElementById('imagesrc1').textContent = imagesrc1;
     document.getElementById('icon1').setAttribute('src', imagesrc1);
-    document.getElementById('icon1').setAttribute('alt', jsObject.list[0].weather[0].description);
+    document.getElementById('icon1').setAttribute('alt', jsObject.list[6].weather[0].description);
 
     document.getElementById('imagesrc2').textContent = imagesrc2;
     document.getElementById('icon2').setAttribute('src', imagesrc2);
-    document.getElementById('icon2').setAttribute('alt', jsObject.list[1].weather[0].description);
+    document.getElementById('icon2').setAttribute('alt', jsObject.list[14].weather[0].description);
 
     document.getElementById('imagesrc3').textContent = imagesrc3;
     document.getElementById('icon3').setAttribute('src', imagesrc3);
-    document.getElementById('icon3').setAttribute('alt', jsObject.list[2].weather[0].description);
+    document.getElementById('icon3').setAttribute('alt', jsObject.list[22].weather[0].description);
 
     document.getElementById('imagesrc4').textContent = imagesrc4;
     document.getElementById('icon4').setAttribute('src', imagesrc4);
-    document.getElementById('icon4').setAttribute('alt', jsObject.list[3].weather[0].description);
+    document.getElementById('icon4').setAttribute('alt', jsObject.list[30].weather[0].description);
 
     document.getElementById('imagesrc5').textContent = imagesrc5;
     document.getElementById('icon5').setAttribute('src', imagesrc5);
-    document.getElementById('icon5').setAttribute('alt', jsObject.list[4].weather[0].description);
+    document.getElementById('icon5').setAttribute('alt', jsObject.list[38].weather[0].description);
 
-
+    
 
 });
 

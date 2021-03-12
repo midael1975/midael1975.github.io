@@ -17,15 +17,15 @@ function getForecast(){
             temp = preston.list[i].main.temp;// obtengo el pronostico
             fecha = preston.list[i].dt_txt;// obtengo la fecha para luego obtener el dia
             day = dayName(fecha);// funcion creada para obtener el dia de la semana
-            let iddia = "0" + c;//concademacion para formar los id del div que dice el dia de la semana
-            let idday = "day" +c;// para el span que esta dentro del div que muestra la temperatura
-            let idicon = "icon" + c;// para el id de la img que muestra el icono
-            document.getElementById(iddia).textContent = day;
-            document.getElementById(idday).textContent = temp;
+            let dia = "0" + c;//concademacion para formar los id del div que dice el dia de la semana
+            let day = "day" +c;// para el span que esta dentro del div que muestra la temperatura
+            let icon = "icon" + c;// para el id de la img que muestra el icono
+            document.getElementById(dia1).textContent = day;
+            document.getElementById(day1).textContent = temp;
             const imagesrc = 'https://openweathermap.org/img/w/' + preston.list[i].weather[0].icon + '.png'; 
             const desc = preston.list[i].weather[0].description;
-            document.getElementById(idicon).setAttribute('src', imagesrc);
-            document.getElementById(idicon).setAttribute('alt', desc);
+            document.getElementById(icon).setAttribute('src', imagesrc);
+            document.getElementById(icon).setAttribute('alt', desc);
             c++;
 
 

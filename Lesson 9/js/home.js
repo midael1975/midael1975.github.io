@@ -47,7 +47,6 @@ document.querySelector('div.home').appendChild(res);
       }
     }
   });
-  
-
+ 
 
 

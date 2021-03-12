@@ -1,53 +1,30 @@
-function getForescast() {
 const apiforecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=7d622b58ff7b6823c7020ccafbb6f9d1';
 fetch(apiforecastURL)
-.then((response) => response.json())
-.then((jsonObject) => {
-  const preston = jsonObject['preston'];
-  let temp;
-  let fecha;
-  let day;
-  let x =1;
-  for (let i = 0; i < preston.list.length-1; i++ ) {
-    if (preston[i].dt_tx == '18.00.00'){
-temp = preston.list[i].main.temp;
-fecha = preston.list[i].dt_tx;
-day = dayName(fecha);
-let dia = "0" + x;
-let day = "day" + x;
-let icon = "icon" + x;
-
-document.getElementById(day).textContent = temp;
-
-const imagesrc = 'https://openweathermap.org/img/w/' + preston.list[i].weather[0].icon + '.png';
-const desc = preston.list[i].weather[0].description;
-
-document.getElementById(icon).setAttribute('src', imagesrc);
-document.getElementById(icon).setAttribute('alt', desc);
-x++;
-
-    }
-  }
-});
-
-}
-
-
-function dayName(fecha){
-
-  const days = [
-  'Sun.',
-  'Mon.',
-  'Tue.',
-  'Wen.',
-  'Thu.',
-  'Fri.',
-  'Sat.',
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    const dayofWeek = ['Sun.', 'Mon.', 'Tue.', 'Wed.', 'Thu.', 'Fri.', 'Sat.'];
+    const form = jsObject.list.filter((element) =>
+      element.dt_txt.includes("18:00:00")
+    );
+    let day = 0;
+    let i = 0;
   
-  ];
-  const numberDay = new Date(fecha).getDay();
-  const nameDay = days[numberDay];
+    for ( i = 0; i < form.length; i++ ) {
+       let d = new Date (form[i].dt_txt);
+  console.log(d);
+       document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek [d.getDay()];
+       document.getElementById(`forecast${day+1}`).textContent = form[day].main.temp;
 
-}
+       const imagesrc = 'https://openweathermap.org/img/w/' + form[day].weather[0].icon + '.png';
 
+       document.getElementById(`imagesrc${day+1}`).textContent = imagesrc;
+       document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
+       
+       day++;
+  
+    }
+  })
+
+  
 

@@ -134,6 +134,7 @@
         .hopage {
             display: block;
             margin: auto;
+            height: 500px;
         }
 
         h4 {

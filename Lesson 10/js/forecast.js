@@ -7,7 +7,7 @@ function getForecast(){
         const preston = jsObject; //paso el objeto a una variable para mas facilidad
         let temp;//declaro la temperatura
         let fecha;// declaro la fecha
-        // declaro dia todo vacios para usarlo dentro del ciclo for
+        // declaro dia todo vacios para usarlo dentro del ciclo forb
         
         let c =1;//para contar solo interaciones positivas y usarlas para formar el "id" de lo elementos
         for(let i = 0; i <= preston.list.length-1; i++){// recorrer el array json solo la lista

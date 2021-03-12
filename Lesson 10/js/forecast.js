@@ -20,7 +20,7 @@ fetch(apiforecastURL)
 
        document.getElementById(`imagesrc${day+1}`).textContent = imagesrc;
        document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
-       
+       document.getElementById(`icon${day+1}`).setAttribute('alt', form[0].description);
        day++;
   
     }

@@ -7,7 +7,7 @@ function getForecast(){
         const preston = jsObject; //paso el objeto a una variable para mas facilidad
         let temp;//declaro la temperatura
         let fecha;// declaro la fecha
-        let day;// declaro dia todo vacios para usarlo dentro del ciclo for
+        // declaro dia todo vacios para usarlo dentro del ciclo for
         
         let c =1;//para contar solo interaciones positivas y usarlas para formar el "id" de lo elementos
         for(let i = 0; i <= preston.list.length-1; i++){// recorrer el array json solo la lista
@@ -20,8 +20,8 @@ function getForecast(){
             let dia = "0" + c;//concademacion para formar los id del div que dice el dia de la semana
             let day = "day" +c;// para el span que esta dentro del div que muestra la temperatura
             let icon = "icon" + c;// para el id de la img que muestra el icono
-            document.getElementById(dia1).textContent = day;
-            document.getElementById(day1).textContent = temp;
+            document.getElementById(dia).textContent = day;
+            document.getElementById(day).textContent = temp;
             const imagesrc = 'https://openweathermap.org/img/w/' + preston.list[i].weather[0].icon + '.png'; 
             const desc = preston.list[i].weather[0].description;
             document.getElementById(icon).setAttribute('src', imagesrc);

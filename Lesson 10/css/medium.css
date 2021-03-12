@@ -24,6 +24,7 @@
     #five {
         text-align: center;
         display: inline-block;
+        margin: auto;
     }
 
     #herosum {
@@ -94,8 +95,8 @@
     }
 
     table, th, td {
-        margin-left: 50px;
         width: 400px;
+        margin-left: 50px;
         align-items: center;
     }
 

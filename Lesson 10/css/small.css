@@ -80,7 +80,7 @@ h2 {
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    margin-left: 85px;
+    margin-left: 80px;
 }
 
 th {
@@ -215,18 +215,7 @@ figure img {
 }
 
 
-/*prueba*/
 
-#five-days {
-    display: grid;
-     grid-template-columns: repeat(auto-fill,minmax(180px, 1fr));
-     max-width: 960px;
-     gap: 10px;
-     grid-template-rows: 3repeat(auto-fill,minmax(150px,1fr));
-     margin: auto;
-     display:block
-   
-}
 
 
 

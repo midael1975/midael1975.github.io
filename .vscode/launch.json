@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open preston-10.html",
+            "file": "c:\\Users\\Pacheco\\OneDrive\\Documentos\\BYU Idaho\\midael1975.github.io\\Lesson 10\\preston-10.html"
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+body {
+    background-color: white;
+    font-size: 18px;
+    margin: 0;
+
+}
+
+header {
+    background-color: #008BF8;
+	align-items:center;
+    justify-content:center;
+    padding: 5px 0;
+    height: 180px;
+}
+
+#encabezado {
+    display: block ;
+    background-color: #008BF8;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+    float: left;
+    padding: 10px 10px 0px 15px;
+}
+
+#herosum {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+#hero {
+    grid-column: 1/5;
+    grid-row: 1/4;
+}
+
+#primero {
+    border: 1px solid #FFDB30;
+    box-shadow: 10px 10px 10px #004777;
+    display: block;
+        margin: auto;
+}
+
+
+h2 {
+    text-align: center;
+    color:#DC0073
+}
+
+#five {
+    display: none;
+}
+
+#titulo {
+    font-size: 45px;
+    color:#DC0073;
+    text-align: center;
+}
+
+#slogan {
+    margin-bottom: 60px;
+    color:#DC0073;
+    font-size: 2rem;
+    margin-top: -30px;
+    text-align: center;
+}
+
+nav {
+    background-color:  #00589b;
+    text-align: center;
+}
+
+nav ul li {
+    padding: 7px
+}
+
+nav a {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none; /*removes the bullets! */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav button {
+    margin: 1em;
+    text-align: center;
+}
+
+nav a:hover{
+	color:#E95DA6;
+	background-color:#F5B700;
+}
+
+nav ul.hide {
+    display: none;
+    text-align: center;
+
+}
+
+#feedback {
+    background-color: rgb(204, 191, 14);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;    
+}
+
+main, footer {
+    margin: 1rem auto;
+    max-width: 960px;
+}
+
+main {
+    background-color: #FFFFFF;
+    margin-top: -20px
+}
+
+#web {
+    color: white;
+}
+
+footer {
+    background-color: #00589b;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+#Information h2 {
+    color: white;
+}
+
+#contacto {
+    width: 100%;
+
+}
+
+#pie {
+    background-color: #00589b;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    margin-top: 20px;
+}
+
+.active {
+    background: #5fd35f;
+    text-decoration: underline;
+}
+
+.home {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 960px;
+}
+.hopage {
+    text-align: center;
+    width: auto;
+    margin: auto;
+    display: block;
+    margin: 5px;
+    border: black solid 1px;
+    background-color: #eee;
+}
+
+.home section img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+h1, h2 {
+    text-align: center;
+	    color: blue;
+
+}
+
+h4 {
+    font-style: italic;
+}
+
+
+
+
+
+

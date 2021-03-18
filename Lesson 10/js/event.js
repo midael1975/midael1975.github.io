@@ -11,11 +11,11 @@ fetch(requestURL)
     for (let i = 0; i < towns.length; i++ ) {
       if (towns[i].name == "Preston"){
 let home = document.createElement('section');
-let title = document.createElement('h3');
+let title = document.createElement('p');
 let events1 = document.createElement('p');
 
 
-title.textContent = 'Upcoming events:' + ' ' + towns[i].events;
+title.textContent = towns[i].events;
 events1.textContent = towns[i].March;
 
 home.appendChild(title);

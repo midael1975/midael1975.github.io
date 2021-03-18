@@ -15,8 +15,8 @@ let title = document.createElement('p');
 let events1 = document.createElement(p);
 
 
-title.textContent = 'Upcoming events:' + towns[i].events;
-events1.textContent = towns[i].March29;
+title.textContent = 'Upcoming events:' + ' ' + towns[i].events;
+events1.textContent = towns[i].March;
 
 home.appendChild(title);
 home.appendChild(events1);

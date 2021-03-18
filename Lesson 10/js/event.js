@@ -11,7 +11,7 @@ fetch(requestURL)
     for (let i = 0; i < towns.length; i++ ) {
       if (towns[i].name == "Preston"){
 let home = document.createElement('section');
-let title = document.createElement('h2');
+let title = document.createElement('p');
 
 
 title.textContent = 'Upcoming events:' + towns[i].events;

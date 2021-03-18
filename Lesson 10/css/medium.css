@@ -29,7 +29,7 @@
 
     #herosum {
         display: grid;
-        grid-template-columns: 1fr 180px 1fr 1fr;
+        grid-template-columns: 1fr 180px 180px 1fr;
         margin-left: 0;
     }
 
@@ -126,5 +126,22 @@
         color:white;
         font-size: 30px;
     }
+
+    .events {
+        grid-column: 3/4;
+        grid-row: 3/4;
+        background: radial-gradient(#eee, #4567aa);
+            border: 1px solid #000;
+            padding: 0.5px;
+            box-shadow: 0 0 30px #111;
+            opacity: .8;
+            color: green;
+            text-align: center;
+            font-size: small;
+    }
+
+   h3 {
+       color:#DC0073; 
+   }
 
 }

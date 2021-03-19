@@ -35,6 +35,16 @@
         margin-top: 30px;
     }
 
+    #mist {
+        text-align: center;
+        color:#DC0073;
+    }
+
+    h1 {
+        color:#DC0073;
+        text-align: center;
+    }
+
     #purpose {
         margin: auto;
         font-size: 1.3rem;

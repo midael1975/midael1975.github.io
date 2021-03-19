@@ -100,10 +100,6 @@ th {
 	box-shadow: 10px 10px 10px #004777;
 }
 
-.parrafo {
-    margin-left: 10px;
-}
-
 
 #titulo {
     font-size: 45px;
@@ -201,7 +197,7 @@ footer {
 }
 
 .parrafo {
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 #galeria {

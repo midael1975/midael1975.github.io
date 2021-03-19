@@ -27,14 +27,18 @@
     }
 
     #herosum {
-        display: grid;
-        grid-template-columns: 1fr 180px 1fr 1fr;
-        margin-left: 0;
+        display: block;
     }
 
     #hero {
-        grid-column: 1/5;
-        grid-row: 1/4;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #purpose {
+        margin: auto;
+        font-size: 1.3rem;
+        margin-left: 10px;
     }
 
     #primero {

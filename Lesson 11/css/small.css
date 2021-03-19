@@ -26,15 +26,17 @@ header img {
 }
 
 #herosum {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: block;
     margin-left: 0;
     margin-top: 30px;
 }
 
 #hero {
-    grid-column: 1/5;
-    grid-row: 1/4;
+    width: 100%;
+}
+
+#purpose {
+    margin-left: 10px;
 }
 
 #primero {
@@ -62,7 +64,7 @@ h2 {
 
 #slogan {
     margin-bottom: 60px;
-    color:white;
+    color: white;
     font-size: 2rem;
     margin-top: -30px;
     text-align: center;
@@ -179,7 +181,7 @@ footer {
     width: 90%;
 }
 
-h1, h2 {
+h2 {
     text-align: center;
 	    color: blue;
 

@@ -29,7 +29,7 @@
 
     #herosum {
         display: grid;
-        grid-template-columns: 1fr 180px 180px 1fr;
+        grid-template-columns: 1fr 1fr 180px 1fr;
         margin-left: 0;
     }
 

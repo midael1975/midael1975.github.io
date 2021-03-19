@@ -56,6 +56,16 @@ h2 {
     display: none;
 }
 
+#mist {
+    text-align: center;
+    color:#DC0073;
+}
+
+h1 {
+    color:#DC0073;
+    text-align: center;
+}
+
 #titulo {
     font-size: 45px;
     color: white;

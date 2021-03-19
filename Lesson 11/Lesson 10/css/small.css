@@ -89,10 +89,17 @@ th {
 }
 
 #articulo {
+    width: 90%;
+    border: 1px solid #FFDB30;
+	box-shadow: 10px 10px 10px #004777;
+}
+
+#articulo1 {
     width: 100%;
     border: 1px solid #FFDB30;
 	box-shadow: 10px 10px 10px #004777;
 }
+
 
 #titulo {
     font-size: 45px;

@@ -26,10 +26,11 @@
     #one {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 50px 50px 80px 80px 80px;
+        grid-template-rows: 50px 50px 80px 80px 100px;
         margin-top: 15px;
 
     }
+
 
     .parrafo {
         grid-column: 1/3;

@@ -58,13 +58,13 @@ h2 {
 
 #titulo {
     font-size: 45px;
-    color:#DC0073;
+    color: white;
     text-align: center;
 }
 
 #slogan {
     margin-bottom: 60px;
-    color:#DC0073;
+    color: white;
     font-size: 2rem;
     margin-top: -30px;
     text-align: center;
@@ -181,7 +181,7 @@ footer {
     width: 90%;
 }
 
-h1, h2 {
+h2 {
     text-align: center;
 	    color: blue;
 

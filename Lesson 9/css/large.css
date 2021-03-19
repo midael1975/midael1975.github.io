@@ -68,6 +68,13 @@
     #mist {
         grid-column: 3/5;
         grid-row: 1/2;
+        text-align: center;
+        color:#DC0073;
+    }
+
+    h1 {
+        color:#DC0073;
+        text-align: center;
     }
 
     #purpose {

@@ -26,15 +26,17 @@ header img {
 }
 
 #herosum {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: block;
     margin-left: 0;
     margin-top: 30px;
 }
 
 #hero {
-    grid-column: 1/5;
-    grid-row: 1/4;
+    width: 100%;
+}
+
+#purpose {
+    margin-left: 10px;
 }
 
 #primero {

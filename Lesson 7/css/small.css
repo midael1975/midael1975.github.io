@@ -182,7 +182,7 @@ footer {
 
 #feedback {
     background-color: rgb(204, 191, 14);
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;

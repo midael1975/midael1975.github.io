@@ -19,7 +19,7 @@ fetch(apiURL)
     } 
     
     else {
-      chill = "Not Applicable";
+      chill = document.getElementById("windchill").innerHTML = "N/A";
     
     }  
 

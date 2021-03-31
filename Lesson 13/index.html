@@ -12,7 +12,7 @@
   </head>  
   <body>
     <header>
-      <img src="images/logo barquisimeto.jpg" alt="logo">
+      <img src="images/barquisimeto-ciudad-ideal1.png" alt="logo">
       <h1 id="encabezado">
         Chammber Commerce
       </h1>
@@ -23,23 +23,20 @@
         La ciudad musical de Venezuela
       </h3>
     
-    
+    </header>
+
     <nav>
       <button onclick="toggleMenu()">&#9776;</button> 
       <ul id="mostrar" class="hide">
+        <li><a href="index.html">Home</a></li>
         <li><a href="city.html">City</a></li>
         <li><a href="join.html">Join</a></li>
         <li><a href="directory.html">Directory</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-      
-    </header>
     
     <main>
-      
-               
-     
       
        <div id="five">
 
@@ -150,6 +147,28 @@
       </div>
       <div>
           <h3>Upcoming Events</h3>
+          <h3 class="title">Calendar Interactive</h3>
+        <div class="calendar">
+          <div class="calendar_inf">
+            <div class="calendar_prev" id="prev-month">&#9664;</div>
+            <div class="calendar_month" id="month">January</div>
+            <div class="calendar_year" id="2021">2021</div>
+            <div class="calendar_next" id="next-month">&#9654;</div>
+          </div>
+
+          <div class="calendar_week">
+            <div class="calendar_day calendar-item">Mon</div>
+            <div class="calendar_day calendar-item">Tue</div>
+            <div class="calendar_day calendar-item">Wed</div>
+            <div class="calendar_day calendar-item">Thu</div>
+            <div class="calendar_day calendar-item">Fri</div>
+            <div class="calendar_day calendar-item">Sat</div>
+            <div class="calendar_day calendar-item">Sun</div>
+          </div>
+
+          <div class="calendar-date" id="dates"></div>
+        </div>
+
           
       </div>
     </main>
@@ -168,5 +187,6 @@
            <div id="pie"> &#169;<span id="fullYear"></span>| Weather Site | Wilker Pacheco | <span id="design"></span> <script src="js/site.js"></script></div>
          </footer>
    <script src="js/weather.js"></script>
+   <script src="js/calendar.js"></script>
   </body>
 </html>

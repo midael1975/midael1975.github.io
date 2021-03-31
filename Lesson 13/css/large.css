@@ -5,40 +5,46 @@ body {
   }
   
   header {
-    background-color: black;
     align-items: center;
     justify-content: center;
     padding: 5px 0;
     height: 200px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffff88+0,ffff88+55 */
+background: #ffff88; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffff88 0%, #ffff88 55%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffff88 0%,#ffff88 55%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffff88 0%,#ffff88 55%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffff88',GradientType=0 ); /* IE6-9 */
+
   }
   
   #encabezado {
     display: block;
-    background-color:black;
-    margin: 0;
+    margin: auto;
+    margin-right: 250px;
     text-align: center;
-    color: white;
+    color: #14213D;
   }
   
   #ciudad {
     display: block;
     margin: auto;
-    background-color: black;
+    margin-right: 250px;
     text-align: center;
-    color: white;
+    color: #14213D;
   }
   
   #slogan {
     display: block;
-    background-color: black;
     margin: auto;
+    margin-right: 250px;
     text-align: center;
     font-style: italic;
-    color: white;
+    color: #14213D;
   }
   
   header img {
-    width: 80px;
+    width: 20%;
     height: auto;
     float: left;
     padding: 10px 10px 0px 15px;
@@ -53,41 +59,39 @@ body {
     background-color: #FFFFFF;
     margin-top: -20px;
   }
-  nav {
-    text-align: right;
-    margin-top: -100px;
+
+  nav{
+    text-align: center;
+    background-color: #14213D;
+    margin-top: auto;
   }
-  
-  nav ul li {
-    padding: 7px;
-  }
-  
+
   nav a {
-    color: #FFFFFF;
+    color: white;
     font-size: 1.5rem;
   }
-  
+
   nav ul {
     list-style: none; /*removes the bullets! */
-    text-align: right;
-    margin-top: -20px;
-    padding: 0;
-  }
-  
-  nav button {
-    margin: 1em;
-    text-align: center;
-  }
-  
-  nav a:hover {
-    color: #E95DA6;
-    background-color: #F5B700;
-  }
-  
-  nav ul.hide {
-    display: none;
-    text-align: center;
-  }
+    }
+
+    nav button {
+        display: none;
+    
+    }
+
+    nav ul.hide  {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+        display: inline-block;
+        padding: 20px;
+        
+        
+
+    }
   
   table, th, td {
           margin-left: 150px;
@@ -102,7 +106,7 @@ body {
   }
   
   th {
-      background-color: #008BF8;
+      background-color: #14213D;
       color: white;
   }
   
@@ -115,6 +119,7 @@ body {
   
   h1, h3{
     text-align: center;
+    color: #14213D;
   }
   
   footer {
@@ -152,7 +157,7 @@ body {
   }
   
   #pie {
-    background-color: black;
+    background-color: #14213D;
     grid-column: 1/4;
     grid-row: 2/3;
     margin-top: 30px;
@@ -172,14 +177,14 @@ body {
   #summary {
       grid-column: 1/2;
       margin: auto;
-      background: radial-gradient(#eee, #4567aa);
+      background: radial-gradient(#eee, #868175);
             border: 1px solid #000;
             padding: 0.5px;
             box-shadow: 0 0 30px #111;
             opacity: .8;
             text-align: center;
             line-height: 0.5px;
-            color: green;
+            color:#14213D;
             font-size: large;
         
   }
@@ -206,8 +211,66 @@ body {
 
   .emp h2 {
       text-align: center;
+      color:#14213D;
   }
 
  #purpose {
       padding: 20px;
+  }
+
+  address {
+    display: block;
+    margin-left: 10px;
+  }
+
+  .title {
+    text-align: center;
+    color: #147761;
+  }
+
+  .calendar {
+    background-color:  #E5E5E5;
+    width: 80%;
+    max-width: 600px;
+    margin: 1em auto;
+    padding: .5em 0;
+
+  }
+  
+  .calendar_inf {
+    display: flex;
+    align-items: center;
+    padding: 0 2em;
+    font-size: 1,2em;
+    text-transform: uppercase;
+  }
+
+  .calendar_prev, .calendar_next {
+    color: yellow;
+    cursor: pointer;
+    font-size: 1.3em;
+
+  }
+
+  .calendar_prev {
+    margin-right: auto;
+  }
+
+  .calendar_next {
+    margin-left: auto;
+  }
+
+  .calendar_week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+  }
+
+  .calendar_item {
+    text-align: center;
+    line-height:  2;
+  }
+
+  #month, #year {
+    padding: .5em;
   }

@@ -10,7 +10,7 @@ const options = {
   );
   
   function toggleMenu() {
-    document.getElementById("mostrar").classList.toggle("hide");
+    document.getElementById('mostrar').classList.toggle('hide');
   }
   
   var d = new Date();

@@ -1,35 +1,65 @@
-nav {
-    text-align: right;
-    margin-top: -100px;
+@media (min-width: 32.5em) {
+  header {
+    height: 100px;
+  }
+  #encabezado {
+    display: block;
+    margin: auto;
+   margin-left: 50px;
+    text-align: center;
+    color: #14213D;
+    font-size: 30px;
+  }
+  
+  #ciudad {
+    display: block;
+    margin: auto;
+    margin-left: 100px;
+    text-align: center;
+    color: #14213D;
+  }
+  
+  #slogan {
+    display: block;
+    margin: auto;
+    margin-left: 100px;
+    text-align: center;
+    font-style: italic;
+    color: #14213D;
+  }
+  
+  header img {
+    width: 30%;
+    height: auto;
+    float: left;
+    padding: 10px 10px 0px 15px;
+  }
+  nav {
+    text-align: center;
   }
   
   nav ul li {
+    display: block;
+    text-align: center;
     padding: 7px;
   }
   
-  nav a {
-    color: black;
-    font-size: 1.5rem;
-  }
-  
   nav ul {
-    list-style: none; /*removes the bullets! */
-    text-align: right;
-    margin-top: -20px;
-    padding: 0;
-  }
-  
-  nav button {
-    margin: 1em;
     text-align: center;
+    
   }
   
-  nav a:hover {
-    color: #E95DA6;
-    background-color: #F5B700;
+  h3 {
+    text-align: left;
   }
   
-  nav ul.hide {
-    display: none;
-    text-align: center;
+  #empresa {
+    display: block;
   }
+  
+  #final {
+    display: block;
+  }
+    
+   
+}

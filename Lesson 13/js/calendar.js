@@ -18,6 +18,7 @@ year.textContent = currentYear.toString();
 prevMonthDOM.addEventListener('click', ()=>lastMonth());
 nextMonthDOM.addEventListener('click', ()=>nextMonth());
 
+writeMonth(monthNumber);
 
 function writeMonth (month) {
     for(let i=1; i<=getTotalDays(month); i++ ) {
@@ -27,10 +28,10 @@ function writeMonth (month) {
     }
 
 }
-writeMonth(monthNumber);
+
 
 function getTotalDays(month) {
-    if(month === -1) month = 11;
+    if(month == -1) month = 11;
 
     if (month == 0 || month == 2 || month == 4 || month == 6 || month == 7 || month == 9 || month == 11 ) {
         return 31;
@@ -46,12 +47,12 @@ function getTotalDays(month) {
 }
 
 function isLeap() {
-    return((currentYear % 100 !==0) && (currentYear % 4 === 0) || (currentYear % 400 === 0));
+    return((currentYear % 100 !==0) && (currentYear % 4 == 0) || (currentYear % 400 == 0));
 }
 
 function startDay () {
     let start = new Date (currentYear, monthNumber, 1);
-    return ((start.getDay()-1) === -1) ? 6 : start.getDay()-1;
+    return ((start.getDay()-1) == -1) ? 6 : start.getDay()-1;
 
 }
 

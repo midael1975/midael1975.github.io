@@ -313,7 +313,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', end
   .culture {
     grid-column: 3/4;
     grid-row: 3/4;
-    tex-align: center;
+    text-align: center;
     margin-right: 60px;
   }
   

@@ -155,14 +155,14 @@
   display: flex;
   padding: 0;
   width: 400%;
-   heigth: 400px;  
+   height: 400px;  
   animation: cambio 20s infinite alternate linear;
 }
   
 .slider li {
   width: 100%;
   list-style: none;
-  heigth: 400px; 
+  height: 400px; 
 }
 
 .slider img {
@@ -192,7 +192,7 @@
   color: white;
   position: absolute;
   padding: 0;
-  aling-item: center;
+  align-items: center;
   justify-content: center;
   font-size: 1.3rem;
     left: 0;

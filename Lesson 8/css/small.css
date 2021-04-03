@@ -238,7 +238,8 @@ legend {
     padding: 10px;
     background-color: #d9e1eb;
     color: red;
-    width: auto;
+    width: 90%;
+    margin: auto;
 }
 
 label {

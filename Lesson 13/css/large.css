@@ -1,4 +1,5 @@
-body {
+@media (min-width: 64em) {
+  body {
     background-color: #E5E5E5;
     font-size: 18px;
     margin: 0;
@@ -32,6 +33,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', end
     margin-right: 250px;
     text-align: center;
     color: #14213D;
+    font-size: 25px;
   }
   
   #slogan {
@@ -52,15 +54,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', end
   main,
   footer {
     margin: 1rem auto;
-    max-width: 960px;
+    max-width: auto;
   }
   
   main {
     background-color: #FFFFFF;
     margin-top: -20px;
   }
-
-  nav{
+  
+   nav{
     text-align: center;
     background-color: #14213D;
     margin-top: auto;
@@ -87,15 +89,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', end
     nav ul li {
         flex: 1 1 100%;
         display: inline-block;
-        padding: 20px;
-        
-        
-
+        padding: 20px;    
     }
-  
+
+ 
   table, th, td {
           margin-left: 150px;
-          width: 300px;
+          width: 200px;
+    text-align: center;
           
       }
   
@@ -114,53 +115,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', end
     margin: auto;
     display: block;
     margin-top: 30px;
-    width: 100%;
+    width: 60%;
   }
   
   h1, h3{
     text-align: center;
     color: #14213D;
-  }
+}
   
   footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 250px 50px;
-    grid-gap: 20px;
-    height: 350px;
-    margin-top: -20px;
-  }
-  
-  footer {
-    background-color: white;
-      font-size: 20px;
-      text-align: center;
-     
-  }
-  
-  #contacto {
-    width: 100%;
-    height: 100%;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    margin: 10px;
-    
-    
-  }
-  
-  #information {
-    grid-column: 3/4;
-    grid-row: 1/2;
-    padding-bottom: 100px;
-    text-align: center;
-    background-color: white;
-  }
-  
-  #pie {
     background-color: #14213D;
-    grid-column: 1/4;
-    grid-row: 2/3;
-    margin-top: 30px;
     text-align: center;
     height: 50px;
     color: white;
@@ -198,7 +162,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', end
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 10px;
-      padding: 20px;
+     
   }
 
   .emp {
@@ -223,54 +187,200 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', end
     margin-left: 10px;
   }
 
-  .title {
+#final {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background-color: #E5E5E5;
+}
+
+.events {
+  display:block;
+      margin: auto;
+      height: 100%;
+      align-items: center;
+  
+}
+
+  #information {
+    display: block;
+    margin: auto;
     text-align: center;
-    color: #147761;
-  }
-
-  .calendar {
-    background-color:  #E5E5E5;
-    width: 80%;
-    max-width: 600px;
-    margin: 1em auto;
-    padding: .5em 0;
-
   }
   
-  .calendar_inf {
-    display: flex;
-    align-items: center;
-    padding: 0 2em;
-    font-size: 1,2em;
-    text-transform: uppercase;
+  h3 a {
+    font-size: large;
+  }
+  
+  /*Barquisimeto*/
+
+#Barqto {
+  margin-top: 30px;
+}
+
+
+.slider {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 20px;
+  
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+   heigth: 400px;  
+  animation: cambio 20s infinite alternate linear;
+}
+  
+.slider li {
+  width: 100%;
+  list-style: none;
+  heigth: 400px; 
+}
+
+.slider img {
+  width: 90%;
+  height: 70%;
+  display:block;
+  margin: auto;
+ 
+}
+
+@keyframes cambio {
+  0% {margin-left:0;}
+  20% {margin-left:0;}
+  
+  25% {margin-left:-100%;}
+  45% {margin-left:-100%;}
+  
+  50% {margin-left:-200%;}
+  70% {margin-left:-200%;}
+  
+  75% {margin-left:-300%;}
+  100% {margin-left:-300%;}
+} 
+
+.register {
+  background-color: red;
+  color: white;
+  position: absolute;
+  padding: .5em;
+  aling-item: center;
+  justify-content: center;
+  font-size: 1.3rem;
+    left: 0;
+    right: 0;
+  bottom: -300px;
+  
+}
+  
+  .central {
+    margin-top: -180px;
   }
 
-  .calendar_prev, .calendar_next {
-    color: yellow;
-    cursor: pointer;
-    font-size: 1.3em;
-
-  }
-
-  .calendar_prev {
-    margin-right: auto;
-  }
-
-  .calendar_next {
-    margin-left: auto;
-  }
-
-  .calendar_week {
+  .promotions {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 1fr 50px 300px ;
+        grid-gap:20Px;
   }
-
-  .calendar_item {
+  
+  .economy {
+    grid-coumn: 3/4;
+    grir-row: 1/2;
     text-align: center;
-    line-height:  2;
+    margin-left: 60px;
+    
   }
+  
+  .fpr {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-left: 50px;
+  }
+  
+  .mercabar {
+    grid-column: 3/6;
+    grid-row: 2/3;
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  
+  .culture {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    tex-align: center;
+    margin-right: 60px;
+  }
+  
+  .tpr {
+    grid-column: 3/6;
+    grid-row: 4/5;
+    margin-right: 50px;
+  }
+  
+  .juarez {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: -5px;
+    
+  }
+  
+  #vaca {
+    text-align: center;
+  }
+  
+  #vacap {
+    margin-left: 30px;
+  }
+  
+  .barqf {
+    display: grid;
+     grid-template-columns: repeat(auto-fill,minmax(220px, 1fr));
+     max-width: auto;
+     gap: 10px;
+     margin-left: 10px;
+     margin-right: 0;
+     grid-template-rows: repeat(auto-fill,minmax(210px,1fr));
+   
+}
 
-  #month, #year {
-    padding: .5em;
-  }
+figure {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+}
+  
+  /*JOiN*/
+  
+ form {
+        display: block;
+    }
+
+    textarea {
+        border: solid 2px #999;
+        border-radius: 4px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .enviar {
+        margin: auto;
+        padding: 10px;
+        background-color: yellow;
+        margin-top: 20px;
+    }
+
+
+}

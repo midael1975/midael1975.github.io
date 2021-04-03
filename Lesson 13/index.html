@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Weather Site Homepage</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-
-  </head>  
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="small.css" />
+    <link rel="stylesheet" href="medium.css" />
+    <link rel="stylesheet" href="large.css" />
+  </head>
   <body>
     <header>
-      <img src="images/barquisimeto-ciudad-ideal1.png" alt="logo">
+      <img
+        src="https://cdn.glitch.com/94dd51d0-f670-49d8-92cb-374c27bfa1a2%2Fbarquisimeto-ciudad-ideal1.png?v=1617127365856"
+        alt="logo"
+      />
       <h1 id="encabezado">
         Chammber Commerce
       </h1>
@@ -22,171 +24,210 @@
       <h3 id="slogan">
         La ciudad musical de Venezuela
       </h3>
-    
     </header>
 
     <nav>
-      <button onclick="toggleMenu()">&#9776;</button> 
+      <button onclick="toggleMenu()">&#9776;</button>
       <ul id="mostrar" class="hide">
         <li><a href="index.html">Home</a></li>
-        <li><a href="city.html">City</a></li>
+        <li><a href="Barquisimeto.html">Barquisimeto</a></li>
         <li><a href="join.html">Join</a></li>
         <li><a href="directory.html">Directory</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    
+
     <main>
-      
-       <div id="five">
-
+      <div id="five">
         <section id="summary">
-            <h2 id="clima">Weather Summary</h2>
-            <p>Currently: <span id="description"></span></p>
-            <p>Temperature: <span id="temp"></span>°F</p>
-            <p>Humidity: <span id="humidity"></span>%</p>
+          <h2 id="clima">Weather Summary</h2>
+          <p>Currently: <span id="description"></span></p>
+          <p>Temperature: <span id="temp"></span>°F</p>
+          <p>Humidity: <span id="humidity"></span>%</p>
         </section>
-                 
-                <table id="tabla">
-                    
-                    <tr>
-                        <th>
-                            <span id="dayofweek1"></span>
-                           
-                        </th>
-                        <th>
-                            <span id="dayofweek2"></span>
-                            
-                        </th>
-                        <th>
-                            <span id="dayofweek3"></span>
-                            
-                        </th>
-                        
-                    </tr>
 
-                    <tr>
-                        <td>
-                            <img id="imagesrc1"> &nbsp; <img src="" alt="" id="icon1">
-                        </td>
+        <table id="tabla">
+          <tr>
+            <th>
+              <span id="dayofweek1"></span>
+            </th>
+            <th>
+              <span id="dayofweek2"></span>
+            </th>
+            <th>
+              <span id="dayofweek3"></span>
+            </th>
+          </tr>
 
-                        <td>
-                            <img id="imagesrc2">&nbsp; <img src="" alt="" id="icon2">
-                        </td>
+          <tr>
+            <td>
+              <img id="imagesrc1" /> &nbsp; <img src="" alt="" id="icon1" />
+            </td>
 
-                        <td>
-                            <img id="imagesrc3">&nbsp; <img src="" alt="" id="icon3">
-                        </td>
-                        
-                    </tr>
+            <td>
+              <img id="imagesrc2" />&nbsp; <img src="" alt="" id="icon2" />
+            </td>
 
-                    <tr>
-                        <td>
-                            <span id="forecast1"></span>&deg;
-                        
-                        </td>
+            <td>
+              <img id="imagesrc3" />&nbsp; <img src="" alt="" id="icon3" />
+            </td>
+          </tr>
 
-                        <td>
-                            <span id="forecast2"></span>&deg;
-                        
-                        </td>
+          <tr>
+            <td><span id="forecast1"></span>&deg;</td>
 
-                        <td>
-                            <span id="forecast3"></span>&deg;
-                        
-                        </td>
+            <td><span id="forecast2"></span>&deg;</td>
 
-                       
-                    </tr>
-                </table>  
-                
-            </div>
-      
+            <td><span id="forecast3"></span>&deg;</td>
+          </tr>
+        </table>
+      </div>
+
       <div id="primero">
-      <img src="images/barqto.jpeg"  height="450" alt="Ciudad">
-      <h1>
-        Purpose 
-      </h1>
-      <p id="purpose">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus 
-        et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla 
-        consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, 
-        venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. 
-        Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, 
-        viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi 
-        vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam 
-        semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec 
-        odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus 
-        tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue 
-        velit cursus nunc,
-      </p>
-      <div id="empresa">
+        <img
+          src="https://cdn.glitch.com/94dd51d0-f670-49d8-92cb-374c27bfa1a2%2Fbarqto.jpeg?v=1616800471914"
+          height="450"
+          alt="Ciudad"
+        />
+        <h1>
+          Purpose
+        </h1>
+        <p id="purpose">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+          consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
+          nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+          venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+          Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
+          vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat
+          vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra
+          quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
+          laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+          augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
+          rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam
+          semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+          blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio
+          et ante tincidunt tempus. Donec vitae sapien ut libero venenatis
+          faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus
+          tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales
+          sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit
+          cursus nunc,
+        </p>
+        <div id="empresa">
           <div class="emp">
-              <h2>Sisalara</h2>
-              <address>Calle 17 con carrera 3 Zona Industrial 1, Apto. Postal 586.
-                Telf: (Master) ( 58) 251-2371497. Fax: ( 58) 251-2376619 - 2373255.</address>
-              <img src="images/sisalara.jpg" height="200" alt="sisalara">
+            <h2>Sisalara</h2>
+            <address>
+              Calle 17 con carrera 3 Zona Industrial 1, Apto.Phone: ( 58) 251-2371497. 
+            </address>
+            <img
+              src="https://cdn.glitch.com/94dd51d0-f670-49d8-92cb-374c27bfa1a2%2Fsisalara.jpg?v=1617127394679"
+              alt="sisalara"
+            />
           </div>
           <div class="emp">
             <h2>Alimentos Polar</h2>
-            <address>Calle 1, Barquisimeto 3001, Lara
-                Phone: 0251-4483530</address>
-            <img src="images/polar.jpg" alt="polar">
-        </div>
-        <div class="emp">
+            <address>
+              Calle 1, Barquisimeto 3001, Lara Phone: 0251-4483530
+            </address>
+            <img
+              src="https://cdn.glitch.com/94dd51d0-f670-49d8-92cb-374c27bfa1a2%2Fpolar.jpg?v=1617127383849"
+              alt="polar"
+            />
+          </div>
+          <div class="emp">
             <h2>Alimentos El Tunal</h2>
-              <address>Zona Ind. III Av. Carlos Giffoni Edificio Comercial
-                Telfs: (+58251)-4200200 / 0501-ELTUNAL (3588625)</address>
-              <img src="images/tunal.jpg" widht="50" height="200" alt="tunal">
+            <address>
+              Zona Ind. III Av. Carlos Giffoni Edificio Comercial Telfs:
+              (+58251)-4200200 / 0501-ELTUNAL (3588625)
+            </address>
+            <img
+              src="https://cdn.glitch.com/94dd51d0-f670-49d8-92cb-374c27bfa1a2%2Ftunal.jpg?v=1617127411101"
+              widht="50"
+              height="200"
+              alt="tunal"
+            />
+          </div>
         </div>
-      </div>
         <h3>
-          Would you like to get a membership? click on the following link.<br>
-          <a href="https://midael1975.github.io/Lesson%208/stormcenter.html" target="_blank">https://midael1975.github.io/Lesson%208/stormcenter.html</a>
+          Would you like to get a membership? click on the following link.<br />
+          <a
+            href="https://midael1975.github.io/Lesson%208/stormcenter.html"
+            target="_blank"
+            >https://midael1975.github.io/Lesson%208/stormcenter.html</a
+          >
         </h3>
       </div>
-      
+
+      <div id="final">
+        <div class="events">
           <h3>Upcoming Events</h3>
-          <h3 class="title">Calendar Interactive</h3>
-        <div class="calendar">
-          <div class="calendar_inf">
-            <div class="calendar_prev" id="prev-month">&#9664;</div>
-            <div class="calendar_month" id="month">January</div>
-            <div class="calendar_year" id="2021">2021</div>
-            <div class="calendar_next" id="next-month">&#9654;</div>
-          </div>
+          <p class="event1">
+            <strong>Events</strong>: Health day in commemoration of world health
+            day.<br />
+            <strong>Date:</strong> April 7 2021.<br />
+            <strong>Place:</strong> In each healthcare center of the
+            municipality
+          </p>
 
-          <div class="calendar_week">
-            <div class="calendar_day calendar-item">Mon</div>
-            <div class="calendar_day calendar-item">Tue</div>
-            <div class="calendar_day calendar-item">Wed</div>
-            <div class="calendar_day calendar-item">Thu</div>
-            <div class="calendar_day calendar-item">Fri</div>
-            <div class="calendar_day calendar-item">Sat</div>
-            <div class="calendar_day calendar-item">Sun</div>
-          </div>
+          <p class="event2">
+            <strong>Events</strong>: Health day in commemoration of world health
+            day.<br />
+            <strong>Date:</strong> April 7 2021.<br />
+            <strong>Place:</strong> In each healthcare center of the
+            municipality
+          </p>
 
-          <div class="calendar-dates" id="dates"></div>
-        
+          <p class="event3">
+            <strong>Events</strong>: Health day in commemoration of world health
+            day.<br />
+            <strong>Date:</strong> April 7 2021.<br />
+            <strong>Place:</strong> In each healthcare center of the
+            municipality
+          </p>
+        </div>
 
-          
+        <div class="events" id="information">
+          <h2>Contact Information</h2>
+          <p>Phone Number: 04145560383</p>
+          <address>Barquisimeto, Venezuela</address>
+          <p>Email:wjpd1905@gmail.com</p>
+          <a
+            href="https://www.instagram.com/accounts/login/?hl=es-la"
+            target="_blank"
+            ><img
+              src="https://cdn.glitch.com/94dd51d0-f670-49d8-92cb-374c27bfa1a2%2FInstagram.png?v=1616807480769"
+              width="35"
+              alt="icon instagram"
+          /></a>
+          <a href="https://twitter.com/login?lang=es" target="_blank"
+            ><img
+              src="https://cdn.glitch.com/94dd51d0-f670-49d8-92cb-374c27bfa1a2%2Ftwitter1.png?v=1616807505019"
+              width="35"
+              alt="icon twitter"
+          /></a>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img
+              src="https://cdn.glitch.com/94dd51d0-f670-49d8-92cb-374c27bfa1a2%2Ffacebook.png?v=1616807491796"
+              width="35"
+              alt="icon facebook"
+          /></a>
+        </div>
       </div>
     </main>
-    
+
     <footer>
-            <div id="Information">
-                <h2>Contact Information</h2>
-                <p>Phone Number: 04145560383</p>
-                <address>Barquisimeto, Venezuela</address>
-                <p>Email:wjpd1905@gmail.com</p>
-                <a href="https://www.instagram.com/accounts/login/?hl=es-la" target="_blank"><img src= "images/Instagram.png" width="35" alt="icon instagram"></a>
-                <a href="https://twitter.com/login?lang=es" target="_blank"><img src="https://cdn.glitch.com/94dd51d0-f670-49d8-92cb-374c27bfa1a2%2Ftwitter1.png?v=1616807505019" width="35" alt="icon twitter"></a>
-                <a href="https://www.facebook.com/" target="_blank"><img src="https://cdn.glitch.com/94dd51d0-f670-49d8-92cb-374c27bfa1a2%2Ffacebook.png?v=1616807491796" width="35" alt="icon facebook"></a>  
-            </div>
-            <iframe id="contacto" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62850.56014575282!2d-69.33803946707772!3d10.085972278650466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sve!4v1616175201912!5m2!1sen!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-           <div id="pie"> &#169;<span id="fullYear"></span>| Weather Site | Wilker Pacheco | <span id="design"></span> <script src="js/site.js"></script></div>
-         </footer>
-   <script src="js/weather.js"></script>
-   <script src="js/calendar.js"></script>
+      <div id="pie">
+        &#169;<span id="fullYear"></span>| Weather Site | Wilker Pacheco |
+        <span id="design"></span>
+        <script src="site.js"></script>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Roboto", "open"] } });
+    </script>
+    <script src="weather.js"></script>
   </body>
 </html>

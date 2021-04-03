@@ -1,0 +1,435 @@
+body {
+    background-color: #E5E5E5;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  header {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    height: 130px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffff88+0,ffff88+55 */
+background: #ffff88; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffff88 0%, #ffff88 55%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffff88 0%,#ffff88 55%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffff88 0%,#ffff88 55%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffff88',GradientType=0 ); /* IE6-9 */
+
+  }
+  
+  #encabezado {
+    display: block;
+    margin-top: -20px;
+    margin-left: 50px;
+    text-align: center;
+    color: #14213D;
+    font-size: 20px;
+  }
+  
+  #ciudad {
+    display: block;
+    margin-top: -15px;
+    margin-left: 50px;
+    text-align: center;
+    color: #14213D;
+    font-size: 16px;
+  }
+  
+  #slogan {
+    display: block;
+    margin-top: -15px;
+    margin-left: 50px;
+    text-align: center;
+    font-style: italic;
+    color: #14213D;
+    font-size: 16px;
+  }
+  
+  header img {
+    width: 50%;
+    height: auto;
+    float: center;
+    padding: 0px 0px 0px 100px;
+    margin-top: -20px;
+  }
+  main,
+  footer {
+    margin: 1rem auto;
+    max-width: auto;
+  }
+  
+  main {
+    background-color: #FFFFFF;
+    margin: auto;
+  }
+
+ nav {
+    background-color:  #00589b;
+    text-align: center;
+}
+
+nav ul li {
+    padding: 7px
+}
+
+nav a {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none; /*removes the bullets! */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav button {
+    margin: 1em;
+    text-align: center;
+}
+
+nav a:hover{
+	color:#E95DA6;
+	background-color:#F5B700;
+}
+
+nav ul.hide {
+    display: none;
+    text-align: center;
+
+}
+  table, th, td {
+          margin-left: 150px;
+          width: 300px;
+    text-align: center;
+          
+      }
+  
+  table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      margin-left: 80px;
+  }
+  
+  th {
+      background-color: #14213D;
+      color: white;
+  }
+  
+  #primero img {
+    margin: auto;
+    margin-top:130px;
+    display: block;
+    width: 80%;
+    height: 50%;
+  }
+  
+  h1, h3{
+    text-align: center;
+    color: #14213D;
+}
+  
+  footer {
+    background-color: #14213D;
+    text-align: center;
+    height: 50px;
+    color: white;
+  }
+  
+  #five {
+      display: block;
+      gap: 20px;
+      margin-top: 30px;
+      height: 100px;
+  }
+
+  #summary {
+      margin: auto;
+      background: radial-gradient(#eee, #868175);
+            border: 1px solid #000;
+            padding: 0.5px;
+            box-shadow: 0 0 30px #111;
+            opacity: .8;
+            text-align: center;
+            line-height: 0.5px;
+            color:#14213D;
+            font-size: large;
+        
+  }
+
+  #tabla {
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  #empresa {
+      display: block;
+      padding: 20px;
+  }
+
+  .emp {
+      display:block;
+      margin: auto;
+      border: 1px solid #000;
+      height: 100%;
+      align-items: center;
+    margin-top: 10px;
+  }
+
+  .emp h2 {
+      text-align: center;
+      color:#14213D;
+  }
+
+ #purpose {
+      padding: 20px;
+  }
+
+  address {
+    display: block;
+    margin-left: 10px;
+  }
+
+#final {
+  display: block;
+  background-color: #E5E5E5;
+}
+
+.events {
+  display:block;
+      margin: auto;
+      margin-left: 10px;
+  
+}
+
+#information {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.events img {
+  padding: 10px;
+}
+
+.events h2 {
+  margin-left:-20px;
+  color: #14213D;
+}
+
+h3 a {
+    font-size: 10px;
+  }
+
+/*Barquisimeto*/
+
+#Barqto {
+  margin-top: 30px;
+}
+
+
+.slider {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 20px;
+  
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+   heigth: 400px;  
+  animation: cambio 20s infinite alternate linear;
+}
+  
+.slider li {
+  width: 100%;
+  list-style: none;
+  heigth: 400px; 
+}
+
+.slider img {
+  width: 90%;
+  height: 70%;
+  display:block;
+  margin: auto;
+ 
+}
+
+@keyframes cambio {
+  0% {margin-left:0;}
+  20% {margin-left:0;}
+  
+  25% {margin-left:-100%;}
+  45% {margin-left:-100%;}
+  
+  50% {margin-left:-200%;}
+  70% {margin-left:-200%;}
+  
+  75% {margin-left:-300%;}
+  100% {margin-left:-300%;}
+} 
+
+.register {
+  background-color: red;
+  color: white;
+  position: none;
+  padding: .5em;
+  aling-item: center;
+  justify-content: center;
+  font-size: 1.3rem;
+    left: 0;
+    right: 0;
+  bottom: 0;
+  display: block;
+  margin-top: -30px;
+  
+}
+  
+  .central {
+    margin-left: 10px;
+  }
+
+  .promotions {
+    display: block;
+  }
+  
+  .economy {
+    text-align: center;
+    margin-left: 0px;
+    
+  }
+  
+  .fpr {
+    margin-left: 10px;
+  }
+  
+  .mercabar {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  
+  .culture {
+    text-align: center;
+    margin-right: 0;
+  }
+  
+  .tpr {
+    margin-left: 10px;
+  }
+  
+  .juarez {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: -5px;
+    
+  }
+  
+  #vaca {
+    text-align: center;
+  }
+  
+  #vacap {
+    margin-left: 10px;
+  }
+  
+  .barqf {
+    display: grid;
+     grid-template-columns: repeat(auto-fill,minmax(220px, 1fr));
+     max-width: auto;
+     gap: 10px;
+     margin-left: 10px;
+     margin-right: 0;
+     grid-template-rows: repeat(auto-fill,minmax(210px,1fr));
+   
+}
+
+figure {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+}
+
+ /*JOiN*/
+  
+form {
+    display: block;
+    font-weight: bold; 
+}
+
+form fieldset {
+    
+    border: 2px solid #0b7e3f;
+    border-radius: 10px;
+    
+    }
+
+legend {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color:#004777;
+}
+
+.unico {
+    padding: 10px;
+    background-color: #d9e1eb;
+    color: red;
+    width: 80%;
+    margin: auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+
+.enviar {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: yellow;
+    }
+
+textarea {
+    border: solid 2px #999;
+    border-radius: 4px;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+}
+
+input:invalid+span:after {
+    position: absolute; content: '✖';
+    padding-left: 5px;
+}
+
+input:valid+span:after {
+    position: absolute;
+    content: '✓';
+    padding-left: 5px;
+}
+
+.comment {
+    height: 250px;
+}
+
+h2 {
+  text-align: center;
+    color: #14213D;
+}
+
+  

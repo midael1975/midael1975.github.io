@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weather Site Homepage</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="small.css" />
+    <link rel="stylesheet" href="medium.css" />
+    <link rel="stylesheet" href="large.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://cdn.glitch.com/94dd51d0-f670-49d8-92cb-374c27bfa1a2%2Fbarquisimeto-ciudad-ideal1.png?v=1617127365856"
+        alt="logo"
+      />
+      <h1 id="encabezado">
+        Chammber Commerce
+      </h1>
+      <h2 id="ciudad">
+        Barquisimeto
+      </h2>
+      <h3 id="slogan">
+        La ciudad musical de Venezuela
+      </h3>
+    </header>
+
+    <nav>
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="mostrar" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Barquisimeto.html">Barquisimeto</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <h2>Membership Form</h2>
+
+    <main>
+    
+
+            <form method="get" action="/action_page.php">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label>Firts Name*:<br>
+                        <input type="text" name="firts" class="unico" placeholder="least 5 Characters" required pattern="[A-Za-z]{5,12}">
+                               <span class="validity"></span>
+                    </label><br><br>
+                    <label>Last Name*:<br>
+                        <input type="text" name="last" class="unico" placeholder="least 5 Characters" required pattern="[A-Za-z]{5,12}">
+                        <span class="validity"></span>
+                    </label><br><br>
+                    <label>Title*:<br>
+                        <input type="text" name="title" class="unico" pattern="[A-Za-z]{5,20}" required>
+                    </label><br><br>
+                    <label>Phone*:<br>
+                        <input type="tel" name="phone" class="unico" placeholder="0414-556-0383" required>
+                    </label><br><br>
+                    <label>eMail*:<br>
+                        <input type="email" name="email" class="unico" required placeholder="user@email.org">
+                      <span class="validity"></span>
+                  </label><br>
+                    
+                </fieldset>
+
+                <fieldset>
+                        <legend>Business Information</legend>
+                            <label>Business Name*:<br>
+                        <input type="text" name="firts" class="unico" placeholder="least 5 Characters" required pattern="[A-Za-z]{5,12}">
+                        <span class="validity"></span>
+                    </label><br><br>
+                    <label>Business Address*:<br>
+                        <input type="text" name="last" class="unico" placeholder="Addres" required pattern="[A-Za-z]{5,12}"><br><br>
+                      <input type="text" name="last" class="unico" placeholder="Street" required pattern="[A-Za-z]{5,12}"><br><br>
+                      <input type="text" name="last" class="unico" placeholder="City" required pattern="[A-Za-z]{5,12}"><br><br>
+                      <input type="text" name="last" class="unico" placeholder="State" required pattern="[A-Za-z]{5,12}"><br><br>
+                        <span class="validity"></span>
+                      <label>Business Website*:<br>
+                        <input type="email" name="email" class="unico" required placeholder="https://www.namebusiness.org"></label><br><br>
+                      <label>
+                        <textarea name="user_message" placeholder="Business Description"></textarea></label><br><br> 
+                            <label>Membership Level and Annual Fees</label><br><br>
+                            <input type="radio" name="select" value="Non-profit" class="dos" checked> <label>Non-profit ($100)</label><br><br>
+                            <input type="radio" name="select" value="no" class="dos" checked> <label>Bronze ($200)</label><br><br>
+                            <input type="radio" class="dos" name="select" value="maybe" checked> <label>Silver ($400)</label><br><br>
+                            <input type="radio" class="dos" name="select" value="maybe" checked> <label>Gold ($1000)</label>
+                       
+                  </fieldset>
+                  
+                    <input type="submit" class="enviar" name="enviar" value="Send"><br><br>
+            </form>
+
+    </main>
+
+    <footer>
+      <div id="pie">
+        &#169;<span id="fullYear"></span>| Weather Site | Wilker Pacheco |
+        <span id="design"></span>
+        <script src="site.js"></script>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Roboto", "open"] } });
+    </script>
+  </body>
+</html>

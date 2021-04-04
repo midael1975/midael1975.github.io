@@ -1,12 +1,12 @@
 {
     "business": [
       {
-        "name":"AGRIBRANDS PURINA VENEZUELA, S.R.L", 
+        "name":"CARGILL", 
         "contactinfo": "(0251)2371811",
         "logo": "images/cargilllogo.jpg"
       },
       {
-        "name":"PRODUCTOS ALIMEX, C.A.",
+        "name":"ALIMEX, C.A.",
         "contactinfo": "(0251)2376179 / 2372770",
         "logo": "images/alimexlogo.jpg"
       },
@@ -16,7 +16,7 @@
         "logo": "images/pronutrilogo.jpg"
       },
       {
-        "name":"VENEZOLANA DE SAL, CA",
+        "name":"VENSAL",
         "contactinfo": "(0414)3504490 / 2690630",
         "logo": "images/vensallogo.jpg"
       },
@@ -26,7 +26,7 @@
         "logo": "images/sisalara.jpg"
       },
       {
-        "name":"Lacteos Los Andes C.A",
+        "name":"Los Andes C.A",
         "contactinfo": "0426-4103394",
         "logo": "images/losandeslogo.png"
       },

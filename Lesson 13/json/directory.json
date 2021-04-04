@@ -2,38 +2,38 @@
     "business": [
       {
         "name":"AGRIBRANDS PURINA VENEZUELA, S.R.L", 
-        "contact information": "(0251)2371811",
-        "logo": "cargilllogo.jpg"
+        "contactinfo": "(0251)2371811",
+        "logo": "images/cargilllogo.jpg"
       },
       {
         "name":"PRODUCTOS ALIMEX, C.A.",
-        "contact information": "(0251)2376179 / 2372770",
-        "logo": "alimexlogo.jpg"
+        "contactinfo": "(0251)2376179 / 2372770",
+        "logo": "images/alimexlogo.jpg"
       },
       {
         "name":"PRONUTRI C,A",
-        "contact information": "(0251)2691338 / 2692510",
-        "logo": "pronutrilogo.jpg"
+        "contactinfo": "(0251)2691338 / 2692510",
+        "logo": "images/pronutrilogo.jpg"
       },
       {
         "name":"VENEZOLANA DE SAL, CA",
-        "contact information": "(0414)3504490 / 2690630",
-        "logo": "vensallogo.jpg"
+        "contactinfo": "(0414)3504490 / 2690630",
+        "logo": "images/vensallogo.jpg"
       },
       {
         "name":"Sisalara C.A",
-        "contact information": "( 58) 251-2371497",
-        "logo": "sisalara.jpg"
+        "contactinfo": "( 58) 251-2371497",
+        "logo": "images/sisalara.jpg"
       },
       {
         "name":"Lacteos Los Andes C.A",
-        "contact information": "0426-4103394",
-        "logo": "losandeslogo.jpg"
+        "contactinfo": "0426-4103394",
+        "logo": "images/losandeslogo.png"
       },
       {
         "name":"Alimentos El Tunal",
-        "contact information": "(+58251)-4200200",
-        "logo": "tunal.jpg"
+        "contactinfo": "(+58251)-4200200",
+        "logo": "images/tunal.jpg"
       }
       
     ]

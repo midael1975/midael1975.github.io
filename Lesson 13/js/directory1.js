@@ -1,6 +1,6 @@
-const requestURL = 'json/directory.json';
-function traer() {
-fetch(requestURL)
+const URL = 'json/directory.json';
+function come() {
+fetch(URL)
   .then(function (response) {
     return response.json();
   })
@@ -22,7 +22,7 @@ card.appendChild(h2);
 card.appendChild(p);
 card.appendChild(image);
 
-document.querySelector('div.cards').appendChild(card);
+document.querySelector('div.list').appendChild(card);
 }
   })
   

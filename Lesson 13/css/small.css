@@ -437,16 +437,10 @@ h2 {
 body{
   margin: 0;
 }
-main {
-  max-width: 960px;
-  margin: auto;
-  background-color: rgb(207, 217, 223);
-  box-shadow: 5px 0 30px  rgb(81, 127, 156);;
-}
 
 h1, h2 {
   text-align: center;
-  color: blue;
+  color:#14213D ;
   font-family: 'Times New Roman', serif;
 }
 
@@ -476,17 +470,58 @@ section img {
   box-shadow: 10px 0 20px black;
 }
 
-p {
-  font-size: medium;
-  text-align: center;
-  margin: 6px;
+.boton {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 
-footer{
-  margin: auto;
+.btn {
+  grid-column: 1/2;
+  grid-row: 2/3;
   display: block;
-  font-size: 25px;
-  font-weight: bold;
+  margin: auto;
+  width: 50px;
+  color: red;
+}
+
+.btn1 {
+ grid-column: 2/3;
+ grid-row: 2/3;
+ display: block;
+ margin: auto;
+ width: 50px;
+  color: red;
+}
+
+#tbtn {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: center;
+  
+}
+
+#tbtn1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
   text-align: center;
 }
+
+#dparr {
+  margin-left: 10px;
+  font-size: large;
+  padding-top: 20px;
+}
+
+.list {
+  display: block;
+  margin:auto;
+  width: 50%;
+  margin-top: -220px;
+}
+
+/*directory list*/
+
+
+

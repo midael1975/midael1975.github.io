@@ -39,12 +39,27 @@
     
     <h2>Business Directory</h2>
 
+    
+
     <main>
 
-        <button onclick="div.cards()">&#9638;</button>
-        <button onclick="div.cards()">&#9776;</button>
+      <p id="dparr">You will find the information of the 7 main local companies click on the following 
+        buttons to display them in the form of a grid or list respectively.</p>
+
+      <div class="boton">
+      <h3 id="tbtn">Grid</h3>
+      <button class="btn" onclick="traer()">&#9638;</button>
+      <h3 id="tbtn1">List</h3>
+      <button class="btn1" onclick="come()">&#9776;</button>
+      </div>
 
         <div class="cards"><script src="js/directory.js"></script>
+      
+        </div>
+       
+        <div class="list"><script src="js/directory1.js"></script>
+      
+        </div>
     
 
     </main>

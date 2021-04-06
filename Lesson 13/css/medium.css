@@ -435,6 +435,18 @@ section img {
       text-align: center;
     }
 
+    #formcon {
+      background-color: #6d7b99;
+    }
+    
+    #formcon input {
+      background-color: white;
+    }
+    
+    .enviar {
+      background-color: yellow;
+    }
+
 
   
 }

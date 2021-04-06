@@ -55,7 +55,7 @@
                         <span class="validity"></span>
                     </label><br><br>
                     <label>Title*:<br>
-                        <input type="text" name="title" class="unico" pattern="[A-Za-z]{5,20}" required>
+                        <input type="organization-title" name="title" class="unico" pattern="[A-Za-z]{5,50}" required>
                     </label><br><br>
                     <label>Phone*:<br>
                         <input type="tel" name="phone" class="unico" placeholder="0414-556-0383" required>
@@ -70,17 +70,17 @@
                 <fieldset>
                         <legend>Business Information</legend>
                             <label>Business Name*:<br>
-                        <input type="text" name="firts" class="unico" placeholder="least 5 Characters" required pattern="[A-Za-z]{5,12}">
+                        <input type="organization" name="firts" class="unico" placeholder="least 5 Characters" required pattern="[A-Za-z]{5,12}">
                         <span class="validity"></span>
                     </label><br><br>
                     <label>Business Address*:<br>
-                        <input type="text" name="last" class="unico" placeholder="Addres" required pattern="[A-Za-z]{5,12}"><br><br>
-                      <input type="text" name="last" class="unico" placeholder="Street" required pattern="[A-Za-z]{5,12}"><br><br>
-                      <input type="text" name="last" class="unico" placeholder="City" required pattern="[A-Za-z]{5,12}"><br><br>
-                      <input type="text" name="last" class="unico" placeholder="State" required pattern="[A-Za-z]{5,12}"><br><br>
+                        <input type="street-address" name="last" class="unico" placeholder="Address" pattern="[A-Za-z]{5,30}"><br><br>
+                      <input type="street-address" name="last" class="unico" placeholder="Street" pattern="[A-Za-z]{5,30}"><br><br>
+                      <input type="text" name="last" class="unico" placeholder="City" pattern="[A-Za-z]{2,30}"><br><br>
+                      <input type="text" name="last" class="unico" placeholder="State" pattern="[A-Za-z]{2,30}"><br><br>
                         <span class="validity"></span>
                       <label>Business Website*:<br>
-                        <input type="email" name="email" class="unico" required placeholder="https://www.namebusiness.org"></label><br><br>
+                        <input type="url" name="url" class="unico" required placeholder="https://www.namebusiness.org"></label><br><br>
                       <label>
                         <textarea name="user_message" placeholder="Business Description"></textarea></label><br><br> 
                             <label>Membership Level and Annual Fees</label><br><br>
@@ -91,7 +91,7 @@
                        
                   </fieldset>
                   
-                    <a href=""><input type="submit" class="enviar" name="enviar" value="Send"></a><br><br>
+                    <a href="https://midael1975.github.io/Lesson%2013/recibido.html" target="_blank"><input type="button" class="enviar" name="enviar" value="Send"></a><br><br>
             </form>
 
     </main>

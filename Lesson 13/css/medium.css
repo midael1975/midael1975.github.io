@@ -293,5 +293,99 @@ figure img {
         background-color: yellow;
         margin-top: 20px;
     }
+
+    /*Directory*/
+
+body{
+  margin: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  color:#14213D ;
+}
+
+.cards {
+  display: grid;
+   grid-template-columns: repeat(auto-fill,minmax(220px, 1fr));
+   max-width: 100%;
+   gap: 5px;
+   margin: 5px;
+   
+}
+
+section {
+  display: block;
+  margin: auto;
+  background-color: rgb(170, 169, 199);
+  border: 1px solid black;
+}
+
+section img {
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  display: block;
+  margin-bottom: 10px;
+  box-shadow: 10px 0 20px black;
+}
+
+.boton {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+.btn {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: block;
+  margin: auto;
+  width: 50px;
+  color: red;
+}
+
+.btn1 {
+ grid-column: 2/3;
+ grid-row: 2/3;
+ display: block;
+ margin: auto;
+ width: 50px;
+  color: red;
+}
+
+#tbtn {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: center;
+  
+}
+
+#tbtn1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+#dparr {
+  margin-left: 10px;
+  font-size: large;
+  padding-top: 20px;
+}
+
+.list {
+  display: block;
+  margin:auto;
+  width: 50%;
+  
+}
+
+footer{
+  margin: auto;
+  display: block;
+  text-align: center;
+ 
+}
   
 }

@@ -441,17 +441,19 @@ body{
 h1, h2 {
   text-align: center;
   color:#14213D ;
-  font-family: 'Times New Roman', serif;
 }
 
 .cards {
   display: grid;
-   grid-template-columns: repeat(auto-fill,minmax(220px, 1fr));
+   grid-template-columns: 1fr 1fr;
    max-width: 100%;
    gap: 5px;
    margin: 5px;
-   grid-template-rows: repeat(auto-fill,minmax(220px, 1fr));
-   max-width: 960px;
+   
+}
+
+.cards p {
+  text-align: center;
 }
 
 section {
@@ -459,11 +461,12 @@ section {
   margin: auto;
   background-color: rgb(170, 169, 199);
   border: 1px solid black;
+  height: 100%;
 }
 
 section img {
   width: 80%;
-  height: 200px;
+  height: auto;
   margin: auto;
   display: block;
   margin-bottom: 10px;
@@ -517,11 +520,21 @@ section img {
 .list {
   display: block;
   margin:auto;
-  width: 50%;
-  margin-top: -220px;
+  width: 100%;
+  
 }
 
-/*directory list*/
+.list p {
+  text-align: center;
+}
+
+footer{
+  margin: auto;
+  display: block;
+  text-align: center;
+ 
+}
+
 
 
 

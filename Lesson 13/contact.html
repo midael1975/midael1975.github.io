@@ -37,12 +37,38 @@
       </ul>
     </nav>
     
-    <h2>Membership Form</h2>
+    <h2>Contact Us</h2>
 
-    <main>
     
 
+    <main>
+
+        <h2 id="directiva">Directive of the Chamber of Commerce of Lara</h2>
+
+        <div id="juntad">
+
+        <div id="junta">
+            
+            <p>President: Eldi Montero<br><br>                                             
+
+                1º Vice president: Emilio Trezza<br><br>
+                
+                2º Vice president: Simón Salas<br><br>
+                
+                Treasurer: Juan Pablo Perez</p>
+        </div>
+
+        <div id="logCam">
+            <img src="images/camaracomercio.png" alt="logo of Chamber">
+        </div>
+
+        </div>
+
+        <div>
+            <h2 id="cus">Contact Us</h2>
+
             <form method="get" action="/action_page.php">
+
                 <fieldset>
                     <legend>Personal Information</legend>
                     <label>Firts Name*:<br>
@@ -53,45 +79,37 @@
                         <input type="text" name="last" class="unico" placeholder="least 5 Characters" required pattern="[A-Za-z]{5,12}">
                         <span class="validity"></span>
                     </label><br><br>
-                    <label>Title*:<br>
-                        <input type="text" name="title" class="unico" pattern="[A-Za-z]{5,20}" required>
-                    </label><br><br>
                     <label>Phone*:<br>
                         <input type="tel" name="phone" class="unico" placeholder="0414-556-0383" required>
                     </label><br><br>
                     <label>eMail*:<br>
                         <input type="email" name="email" class="unico" required placeholder="user@email.org">
                       <span class="validity"></span>
-                  </label><br>
+                  </label><br><br>
+                  <label>
+                    <textarea name="user_message" placeholder="Comment"></textarea></label><br><br>
                     
                 </fieldset>
 
-                <fieldset>
-                        <legend>Business Information</legend>
-                            <label>Business Name*:<br>
-                        <input type="text" name="firts" class="unico" placeholder="least 5 Characters" required pattern="[A-Za-z]{5,12}">
-                        <span class="validity"></span>
-                    </label><br><br>
-                    <label>Business Address*:<br>
-                        <input type="text" name="last" class="unico" placeholder="Addres" required pattern="[A-Za-z]{5,12}"><br><br>
-                      <input type="text" name="last" class="unico" placeholder="Street" required pattern="[A-Za-z]{5,12}"><br><br>
-                      <input type="text" name="last" class="unico" placeholder="City" required pattern="[A-Za-z]{5,12}"><br><br>
-                      <input type="text" name="last" class="unico" placeholder="State" required pattern="[A-Za-z]{5,12}"><br><br>
-                        <span class="validity"></span>
-                      <label>Business Website*:<br>
-                        <input type="email" name="email" class="unico" required placeholder="https://www.namebusiness.org"></label><br><br>
-                      <label>
-                        <textarea name="user_message" placeholder="Business Description"></textarea></label><br><br> 
-                            <label>Membership Level and Annual Fees</label><br><br>
-                            <input type="radio" name="select" value="Non-profit" class="dos" checked> <label>Non-profit ($100)</label><br><br>
-                            <input type="radio" name="select" value="no" class="dos" checked> <label>Bronze ($200)</label><br><br>
-                            <input type="radio" class="dos" name="select" value="maybe" checked> <label>Silver ($400)</label><br><br>
-                            <input type="radio" class="dos" name="select" value="maybe" checked> <label>Gold ($1000)</label>
-                       
-                  </fieldset>
-                  
-                    <input type="submit" class="enviar" name="enviar" value="Send"><br><br>
+                <input type="submit" class="enviar" name="enviar" value="Send"><br><br>
+            
             </form>
+        </div>
+
+        <div id="regcontc">
+
+        <div id="contin">
+            <h2>Contact Information</h2>
+            <p>Phone Number: (0251)251.9490</p>
+            <Address>Av. Vargas, con Esquina Carrera 24, Centro,Barquisimeto, Venezuela</Address>
+            <p>Webpage:camaracomerciolara.org.ve</p>
+            <a href="https://www.instagram.com/camcomerciolara/?hl=en" target="_blank"><img src="images/Instagram.png" width="35" alt="icon instagram"></a>
+            <a href="https://twitter.com/camcomerciolara" target="_blank"><img src="images/twitter1.png" width="35" alt="icon twitter"></a>
+            <a href="https://www.facebook.com/eduardo.lind.96" target="_blank"><img src="images/facebook.png" width="35" alt="icon facebook"></a>  
+        </div>
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62850.56014575282!2d-69.33803946707772!3d10.085972278650466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sve!4v1616175201912!5m2!1sen!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        </div>
 
     </main>
 

@@ -472,13 +472,59 @@ section img {
   width: 50%;
   
 }
+    /*contact*/
 
-footer{
-  margin: auto;
-  display: block;
-  text-align: center;
- 
+#directiva {
+  padding-top: 40px;
 }
 
+#cus {
+  margin-top: 40px;
+}
+
+#juntad {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#junta {
+  grid-column: 1/2;
+  display:block;
+  margin: auto;
+  font-size: 20px;
+}
+
+#logocam {
+  grid-column: 2/3;
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+#regcontc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+  margin-top: 20px;
+}
+
+iframe {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  display:block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+#contin {
+  grid-column: 2/3;
+  display:block;
+  margin:auto;
+  padding-bottom: 300px;
+  width:100%;
+  text-align: center;
+}
 
 }

@@ -528,12 +528,40 @@ section img {
   text-align: center;
 }
 
-footer{
-  margin: auto;
-  display: block;
-  text-align: center;
- 
-}
+    /*contact*/
+
+    #directiva {
+      padding-top: 40px;
+    }
+    
+    #cus {
+      margin-top: 40px;
+    }
+    
+    #juntad {
+      display: block;
+      margin-left:40px;
+    }
+    
+   
+    
+    #regcontc {
+      display: block;
+    }
+    
+    iframe {
+      display:block;
+      margin: auto;
+      width: 100%;
+      height: 100%;
+    }
+    
+    #contin {
+      display:block;
+      margin:auto;
+      width:100%;
+      text-align: center;
+    }
 
 
 

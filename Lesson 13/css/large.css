@@ -289,7 +289,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', end
   }
   
   .economy {
-    grid-column: 3/4;
+    grid-column: 1/2;
     grid-row: 1/2;
     text-align: center;
     margin-left: 60px;

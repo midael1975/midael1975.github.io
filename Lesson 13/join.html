@@ -47,7 +47,7 @@
                 <fieldset>
                     <legend>Personal Information</legend>
                     <label>Firts Name*:<br>
-                        <input type="text" name="firts" class="unico" placeholder="least 5 Characters" required pattern="[A-Za-z]{5,12}">
+                        <input type="text" name="firts" class="unico" placeholder="least 3 Characters" required pattern="[A-Za-z]{3,12}">
                                <span class="validity"></span>
                     </label><br><br>
                     <label>Last Name*:<br>
@@ -55,7 +55,7 @@
                         <span class="validity"></span>
                     </label><br><br>
                     <label>Title*:<br>
-                        <input type="organization-title" name="title" class="unico" pattern="[A-Za-z]{5,50}" required>
+                        <input type="organization-title" name="title" class="unico" pattern="[A-Za-z-\ ]+[A-Za-z-\ ]{5,50}" required>
                     </label><br><br>
                     <label>Phone*:<br>
                         <input type="tel" name="phone" class="unico" placeholder="0414-556-0383" required>
@@ -70,12 +70,12 @@
                 <fieldset>
                         <legend>Business Information</legend>
                             <label>Business Name*:<br>
-                        <input type="organization" name="firts" class="unico" placeholder="least 5 Characters" required pattern="[A-Za-z]{5,12}">
+                        <input type="organization" name="firts" class="unico" placeholder="least 5 Characters" required pattern="[A-Za-z0-9-\ ]+[A-Za-z0-9]{5,12}">
                         <span class="validity"></span>
                     </label><br><br>
                     <label>Business Address*:<br>
-                        <input type="street-address" name="last" class="unico" placeholder="Address" pattern="[A-Za-z]{5,30}"><br><br>
-                      <input type="street-address" name="last" class="unico" placeholder="Street" pattern="[A-Za-z]{5,30}"><br><br>
+                        <input type="street-address" name="last" class="unico" placeholder="Address" pattern="[A-Za-z0-9-\ ]+[A-Za-z0-9]{5,30}"><br><br>
+                      <input type="street-address" name="last" class="unico" placeholder="Street" pattern="[A-Za-z0-9-\ ]+[A-Za-z0-9]{5,30}"><br><br>
                       <input type="text" name="last" class="unico" placeholder="City" pattern="[A-Za-z]{2,30}"><br><br>
                       <input type="text" name="last" class="unico" placeholder="State" pattern="[A-Za-z]{2,30}"><br><br>
                         <span class="validity"></span>

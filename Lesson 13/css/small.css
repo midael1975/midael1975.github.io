@@ -11,11 +11,8 @@ body {
     padding: 5px 0;
     height: 130px;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffff88+0,ffff88+55 */
-background: #ffff88; /* Old browsers */
-background: -moz-linear-gradient(top,  #ffff88 0%, #ffff88 55%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #ffff88 0%,#ffff88 55%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #ffff88 0%,#ffff88 55%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffff88',GradientType=0 ); /* IE6-9 */
+background-color: #fCA311; /* Old browsers */
+
 
   }
   

@@ -1,20 +1,21 @@
 table {
     border-collapse: collapse;
-    border: 2px solid rgb(200,200,200);
+    border: 2px solid rgb(200, 200, 200);
     letter-spacing: 1px;
     font-size: 1rem;
     text-align: center;
-    margin: 10px auto ;
+    margin: 10px auto;
     font-family: Ubuntu, sans serif;
     box-shadow: 10px 10px 10px #628ca6;
 }
 
-td, th {
-    border: 1px solid rgb(190,190,190);
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
     padding: 10px 20px;
 }
 
-thead tr{
+thead tr {
     background-color: #7fb9c2;
     color: black;
     font-style: normal;
@@ -43,4 +44,3 @@ tr {
     background-color: #628ca6;
     color: white;
 }
-

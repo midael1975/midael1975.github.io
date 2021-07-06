@@ -1,40 +1,40 @@
 const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=10.066253514182149&lon=69.34190859059727&units=imperial&appid=7d622b58ff7b6823c7020ccafbb6f9d1";
 fetch(apiURL)
-  .then(response => response.json())
-  .then(jsObject => {
-    console.log(jsObject);
-    document.getElementById("description").textContent = jsObject.current.weather[0].description;
-    document.getElementById("temp").textContent = jsObject.current.temp;
-    document.getElementById("humidity").textContent = jsObject.current.humidity;
-  });
+    .then(response => response.json())
+    .then(jsObject => {
+        console.log(jsObject);
+        document.getElementById("description").textContent = jsObject.current.weather[0].description;
+        document.getElementById("temp").textContent = jsObject.current.temp;
+        document.getElementById("humidity").textContent = jsObject.current.humidity;
+    });
 
 const apiforecastURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=10.066253514182149&lon=69.34190859059727&units=imperial&appid=7d622b58ff7b6823c7020ccafbb6f9d1';
 fetch(apiforecastURL)
-  .then((response) => response.json())
-  .then((jsObject) => {
-    console.log(jsObject);
-    const dayofWeek = ['Sun.', 'Mon.', 'Tue.', 'Wed.', 'Thu.', 'Fri.', 'Sat.'];
-    
-    const form = jsObject.daily;
-  let currentDate =new Date;
-  let currentday = currentDate.getDay();
-    let day = 0;
-    let i = 0;
-   
-  
-    for ( i = 0; i < form.length; i++ ) {
-  
-       let d = new Date (form[i].daily);
-      console.log(d);
-       document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek [currentday++];
-       document.getElementById(`forecast${day+1}`).textContent = form[day].temp.day;
+    .then((response) => response.json())
+    .then((jsObject) => {
+        console.log(jsObject);
+        const dayofWeek = ['Sun.', 'Mon.', 'Tue.', 'Wed.', 'Thu.', 'Fri.', 'Sat.'];
 
-       const imagesrc = 'https://openweathermap.org/img/w/' + form[day].weather[0].icon + '.png';
+        const form = jsObject.daily;
+        let currentDate = new Date();
+        let currentday = currentDate.getDay();
+        let day = 0;
+        let i = 0;
 
-       document.getElementById(`imagesrc${day+1}`).textContent = imagesrc;
-       document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
-       document.getElementById(`icon${day+1}`).setAttribute('alt', form[i].weather[0].description);
-       day++;
-  
-    }
-  })
+
+        for (i = 0; i < form.length; i++) {
+
+            let d = new Date(form[i].daily);
+            console.log(d);
+            document.getElementById(`dayofweek${day+1}`).textContent = dayofWeek[currentday++];
+            document.getElementById(`forecast${day+1}`).textContent = form[day].temp.day;
+
+            const imagesrc = 'https://openweathermap.org/img/w/' + form[day].weather[0].icon + '.png';
+
+            document.getElementById(`imagesrc${day+1}`).textContent = imagesrc;
+            document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
+            document.getElementById(`icon${day+1}`).setAttribute('alt', form[i].weather[0].description);
+            day++;
+
+        }
+    });

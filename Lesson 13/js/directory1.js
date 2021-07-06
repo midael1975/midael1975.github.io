@@ -7,7 +7,7 @@ function come() {
         })
         .then(function(jsonObject) {
             console.table(jsonObject); // temporary checking for valid response and data parsing
-            const business = jsonObject['business'];
+            const business = jsonObject.business;
             for (let i = 0; i < business.length; i++) {
                 let card = document.createElement('section');
                 let h2 = document.createElement('h2');
